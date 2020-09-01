@@ -1,5 +1,7 @@
 ## Tuesday Week36
 
+### Work plan
+
 1. [Tree pretest exercie](pretest.pdf)
 
     Pen and paper ecercises about tree structures and interpretation
