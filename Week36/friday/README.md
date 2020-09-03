@@ -82,6 +82,7 @@ You should also be aware that when you retrieve sequences, they should have simi
 You might find an entry for the CDS of the gene you are interested. However, if you only find the mDNA sequence entry you will have to look for the CDS coordinates in the GenBank page of the gene (Fig2).
 
 <img src="Fig2.png" width="75%">
+
 **Fig2.** How to get the CDS sequence form the RefSeq entry in GenBank. Red circles show where you must click.
 
 Once you made your mind about which sequence you are going to work on...
@@ -117,6 +118,7 @@ The protein differences I've found I show them in Fig3 below. The deletions are 
 
 <img src="Fig3a.png" width="75%">
 <img src="Fig3b.png" width="75%">
+
 **Fig3.** Indels and substitutions in the FOXP2 gene.
 
 ### 4. Estimate pairwise distances among sequences
