@@ -113,7 +113,7 @@ I found these pairwise differences
 
 6. Export your alignments in **.meg** (MEGA) format. Remember: Data > Export Alignment > MEGA format
 
-The protein differences I've found I show them in Fig3 below. The deletions are predicted to not change much the function of the protein (Fig3a). However, the substitutions you see on Fig3b, they are thought to be essential for brain development and have been linked to correct speetch in humans and grammar learning. They were thought to be a difference between humans and Neanderthals, and thus, explain why humans were so successfull compared to our arhcaic relatives. However, Neanderthals share the same substitutions with us and then, this hypothesis was proved to be wrong. 
+The protein differences I've found I show them in Fig3 below. The deletions are predicted to not change much the function of the protein (Fig3a). However, the substitutions you see on Fig3b, they are thought to be essential for brain development and have been linked to correct speetch in humans and grammar learning. They were thought to be a difference between humans and Neanderthals that would explain why humans were able to develop complex language and thus be so successfull compared to our arhcaic relatives. However, Neanderthals share the same substitutions with us and then, this hypothesis was proved to be wrong, at least for this gene. You can read more on internet about this ([link](https://www.nature.com/news/2007/071018/full/news.2007.177.html)).
 
 <img src="Fig3a.png" width="75%">
 <img src="Fig3b.png" width="75%">
