@@ -4,7 +4,7 @@
 
 During this TA session you are going to learn how to retrieve sequences (DNA, RNA, protein) and information about them from public datasets, align those sequences and finally compute a pairwise distance matrix with MEGAX. For each step, you are going to follow a tutorial to understand the basics and then, you will apply what you've learnt with a case example. I suggest to take the protein FOXP2 as a case example, but you are totally free to choose any other DNA, RNA or protein sequence. 
 
-### 1. Understanding the use of PubMed and GenBank
+### 1. Understanding PubMed and GenBank
 
 GenBank is a useful database that contains DNA, RNA and protein sequences publicly available that we will access through MEGAX to download sequences of interest. You can read more about it [here](https://www.ncbi.nlm.nih.gov/genbank/). 
 
