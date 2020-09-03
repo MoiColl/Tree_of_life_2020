@@ -113,6 +113,12 @@ I found these pairwise differences
 
 6. Export your alignments in **.meg** (MEGA) format. Remember: Data > Export Alignment > MEGA format
 
+The protein differences I've found I show them in Fig3 below. The deletions are predicted to not change much the function of the protein (Fig3a). However, the substitutions you see on Fig3b, they are thought to be essential for brain development and have been linked to correct speetch in humans and grammar learning. They were thought to be a difference between humans and Neanderthals, and thus, explain why humans were so successfull compared to our arhcaic relatives. However, Neanderthals share the same substitutions with us and then, this hypothesis was proved to be wrong. 
+
+<img src="Fig3a.png" width="75%">
+<img src="Fig3b.png" width="75%">
+**Fig3.** Indels and substitutions in the FOXP2 gene.
+
 ### 4. Estimate pairwise distances among sequences
 
 Follow the section **Estimating Evolutionary Distances Using Pairwise Distance** from the [3. Estimating Evolutionary Distances](https://www.megasoftware.net/web_help_10/index.htm#t=Part_I_Getting_Started%2FA_Walk_Through_MEGA%2FEstimating_Evolutionary_Distances.htm) tutorial from [MEGAX-Help](https://www.megasoftware.net/web_help_10/index.htm#t=Introduction.htm). 
