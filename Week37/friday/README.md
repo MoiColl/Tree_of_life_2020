@@ -26,4 +26,4 @@ This will estimate likelihoods for each substitution model available and rank th
 4. List the main differences between JC, Kimura, HKY, and Tamura/Nei models, based on Table 3.2 a,b,e below (Fig2). Relate what you find to question 3 above. 
 
 
-<img src="Fig2.png" width="50%">
+<img src="Fig2.png" width="75%">
