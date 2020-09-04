@@ -27,3 +27,9 @@ This will estimate likelihoods for each substitution model available and rank th
 
 
 <img src="Fig2.png" width="75%">
+
+From now on, before you start any analysis you are well advised to determine the best substitution model first
+
+### 2. Tree building
+
+
