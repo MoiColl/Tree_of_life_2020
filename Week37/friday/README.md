@@ -32,6 +32,8 @@ From now on, before you start any analysis you are well advised to determine the
 
 ### 2. Tree building
 
+#### 2.1. Tree building MEGAX tutorial
+
 <img src="Fig3.png" width="75%">
 
 Follow [Building Trees From Sequence Data](https://www.megasoftware.net/web_help_10/index.htm#t=Part_I_Getting_Started%2FA_Walk_Through_MEGA%2FBuilding_Trees_From_Sequence_Data.htm) tutorial from [MEGAX-Help](https://www.megasoftware.net/web_help_10/index.htm#t=Preface.htm).
@@ -52,6 +54,33 @@ There are some parts of the tutorial that are wrong. Here you have some fixies:
     
     Instead of **Close**, you will find **OK**
 
+#### 2.2. Tree building with your case example
+
+Last week you had a case example. Some of you took FOXP2 from some great apes and mouse, but some of you were using the Denisova, the Neanderthal and the Human mtDNA or you were comparing some SARS-CoV2 sequences. Now it's time to get them back! If you did not save the sequences, you can get the FOXP2 sequences I got last time. Be aware that you must align them, since they are just the raw sequences. 
+
+
+
+Reopen flucoding.meg and choose to construct phylogeny First choose UPGMA with the best substitution model that it allows (UPGMA can not be run with all substitution models).
+
+What does this method assume?
+What is bootstrap? a. Choose 1000 bootstrap replicates, what does it then mean if a branch is supported by 90%?
+Which substitution model should you use?
+Should you use uniform rates?
+Build the tree and look at it carefully in the tree explorer
+
+What does it show for flu in cats and dogs a. Does the phylogeny follow H subtypes or species?
+Save the tree as a user tree for later use, call it UPGMA Now repeat the same exercise with
+A. Neighbourjoining
+
+a. Do you get a similar tree as for UPGMA? b. Are bootstrap values similar to the ones from UPGMA? c. Try rooting the tree and see how much it can change appearance by rotating on branches and using different displays.
+
+B. Parsimony
+
+Here you are also estimating the tree by guessing at a good tree followed by close-neighbour interchange. I suggest that you use level 1 which is equivalent to nearest-neighbour interchange. What is this, by the way? I suggest reducing the number of bootstraps to 100 as the method is slower. a. How does the Parsimony tree differ from the distance based trees?
+
+C. Maximum likelihood
+
+a. Here you should also use fewer bootstrap replicates, because the method is much slower. Remember to save the tree for later use, call it ML
 
 
 
