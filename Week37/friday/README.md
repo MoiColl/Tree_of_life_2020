@@ -8,7 +8,7 @@ Remember from last week that we did part of the **steps of the phylogenetic anal
 
 **Fig 1.** Steps of the phylogenetic analysis
 
-This week we are going to explore which substitution model fits best our data, which tree building algorithm to use and how to assess confidence to that tree. During this exercise it is important that you keep all results (screenshots with notes in text editor, such as word, for example) that you obtain in the different parts in order to be able to compare them.
+This week we are going to explore which substitution model fits best our data, which tree building algorithm to use and how to assess confidence to that tree. During this exercise it is important that you keep all the results (screenshots with notes in a text editor, such as word, for example) that you obtain in the different parts in order to be able to compare them.
 
 ### 1. Testing substitution model
 
