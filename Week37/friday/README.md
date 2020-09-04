@@ -32,4 +32,10 @@ From now on, before you start any analysis you are well advised to determine the
 
 ### 2. Tree building
 
+<img src="Fig3.png" width="75%">
+
+
+1. In order to learn more of tree building on MEGAX, follow Building Trees From Sequence Data
+
+
 
