@@ -1,1 +1,7 @@
-## Friday Week36
+# Friday Week37 (UNDER CONSTRUCTION)
+
+## Work plan
+
+### 1.
+
+

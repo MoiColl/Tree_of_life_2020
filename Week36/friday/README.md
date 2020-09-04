@@ -1,6 +1,6 @@
 # Friday Week36
 
-### Work plan
+## Work plan
 
 During this TA session you are going to learn how to retrieve sequences (DNA, RNA, protein) and information about them from public datasets, align those sequences and finally compute a pairwise distance matrix with MEGAX. For each step, you are going to follow a tutorial to understand the basics and then, you will apply what you've learnt with a case example. I suggest to take the protein FOXP2 as a case example, but you are totally free to choose any other DNA, RNA or protein sequence. 
 
@@ -150,7 +150,7 @@ for protein:
 
 Try to draw a tree in which the branch lengths are proportional to the distances. Can you?
 
-### 5. Extra info
+## Extra info
 
 1. Paper that investigate the COVID19 spread in the early times of the first outbreak and study of some particular cases in Iceland
 
