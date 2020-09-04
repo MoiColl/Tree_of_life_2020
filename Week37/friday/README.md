@@ -23,6 +23,7 @@ This will estimate likelihoods for each substitution model available and rank th
 1. Which model is best for this data? Save the Table of model scores since when running some of the tree building methods, you may not be able to use the best model.
 2. What does G and I mean?
 3. What is R? and what is in the 4 columns following the R column?
-4. List the main differences between JC, Kimura, HKY, and Tamura/Nei models, based on Table 3.2 a,b,e below. Relate what you find to question 3 above. 
+4. List the main differences between JC, Kimura, HKY, and Tamura/Nei models, based on Table 3.2 a,b,e below (Fig2). Relate what you find to question 3 above. 
 
 
+<img src="Fig2.png" width="50%">
