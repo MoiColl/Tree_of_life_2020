@@ -36,7 +36,21 @@ From now on, before you start any analysis you are well advised to determine the
 
 Follow [Building Trees From Sequence Data](https://www.megasoftware.net/web_help_10/index.htm#t=Part_I_Getting_Started%2FA_Walk_Through_MEGA%2FBuilding_Trees_From_Sequence_Data.htm) tutorial from [MEGAX-Help](https://www.megasoftware.net/web_help_10/index.htm#t=Preface.htm).
 
+There are some parts of the tutorial that are wrong. Here you have some fixies:
 
+1. In the **Building a Neighbor-Joining (NJ) Tree** section, there is a step that says
+
+    ```Click Compute to accept the defaults for the rest of the options and begin the computation.```
+    
+    Instead of **Comput**, you will find **OK**
+
+2. You don't need to do the **Printing the NJ Tree (For Windows users), Printing the NJ Tree (For Mac users) or Constructing a MP Tree using the Heuristic Search**.
+
+3. The last exercise **Examining Data Editing Features** just tells you how to not use some of the sequences to build a tree without removing the sequences form the raw file. I just want to make clear the purpose of the exercise. A part from that, when it says 
+
+    ```Click the Close button.```
+    
+    Instead of **Close**, you will find **OK**
 
 
 
