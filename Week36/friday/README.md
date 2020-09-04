@@ -125,7 +125,7 @@ The protein differences I've found I show them in Fig3 below. The deletions are 
 
 Follow the section **Estimating Evolutionary Distances Using Pairwise Distance** from the [3. Estimating Evolutionary Distances](https://www.megasoftware.net/web_help_10/index.htm#t=Part_I_Getting_Started%2FA_Walk_Through_MEGA%2FEstimating_Evolutionary_Distances.htm) tutorial from [MEGAX-Help](https://www.megasoftware.net/web_help_10/index.htm#t=Introduction.htm). 
 
-Then, repeat what you've learned in the previous tutorial with you own example.
+Then, repeat what you've learned in this tutorial with you own example.
 
 I computed the number of differences of the FOXP2 CDS for human, chimp and gorilla sequences aligned with MUSCLE. These are the values I obtained with p-distance:
 
@@ -148,7 +148,7 @@ for protein:
 | Goril | 0.0028050491 | 0.0000000000 |              |
 | Mouse | 0.0042016807 | 0.0014005602 | 0.0014044944 |
 
-
+Try to draw a tree in which the branch lengths are proportional to the distances. Can you?
 
 ### 5. Extra info
 
