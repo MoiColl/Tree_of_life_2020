@@ -56,31 +56,22 @@ There are some parts of the tutorial that are wrong. Here you have some fixies:
 
 #### 2.2. Tree building with your case example
 
-Last week you had a case example. Some of you took FOXP2 from some great apes and mouse, but some of you were using the Denisova, the Neanderthal and the Human mtDNA or you were comparing some SARS-CoV2 sequences. Now it's time to get them back! If you did not save the sequences, you can get the FOXP2 sequences I got last time. Be aware that you must align them, since they are just the raw sequences. 
+Last week you had a case example. Some of you took FOXP2 from some great apes and mouse, but some of you were using the Denisova, the Neanderthal and the Human mtDNA or you were comparing some SARS-CoV2 sequences. Now it's time to get them back! If you did not save the sequences or the alignments, you can get the [FOXP2 sequences](Human_Chimp_Gorilla_Mouse_FOXP2_CDS_DNA_SEQ.fas) I got last time. Be aware that you must align them, before building the tree model or run the model selection since they are just the raw sequences. 
 
+1. Check which substitution model fits the best for those sequences
+2. Build a UPGMA tree with the best substitution model that it allows (UPGMA can not be run with all substitution models).
+3. Questions:
 
+    1. Which substitution model should you use?
+    2. What does the substitution method you chose assume?
+    3. Rebuild the tree the same way but choose 1,000 bootstrap replicates. What is bootstrap? What does it then mean if a branch is supported by 90%?
 
-Reopen flucoding.meg and choose to construct phylogeny First choose UPGMA with the best substitution model that it allows (UPGMA can not be run with all substitution models).
-
-What does this method assume?
-What is bootstrap? a. Choose 1000 bootstrap replicates, what does it then mean if a branch is supported by 90%?
-Which substitution model should you use?
-Should you use uniform rates?
-Build the tree and look at it carefully in the tree explorer
-
-What does it show for flu in cats and dogs a. Does the phylogeny follow H subtypes or species?
-Save the tree as a user tree for later use, call it UPGMA Now repeat the same exercise with
-A. Neighbourjoining
-
-a. Do you get a similar tree as for UPGMA? b. Are bootstrap values similar to the ones from UPGMA? c. Try rooting the tree and see how much it can change appearance by rotating on branches and using different displays.
-
-B. Parsimony
-
-Here you are also estimating the tree by guessing at a good tree followed by close-neighbour interchange. I suggest that you use level 1 which is equivalent to nearest-neighbour interchange. What is this, by the way? I suggest reducing the number of bootstraps to 100 as the method is slower. a. How does the Parsimony tree differ from the distance based trees?
-
-C. Maximum likelihood
-
-a. Here you should also use fewer bootstrap replicates, because the method is much slower. Remember to save the tree for later use, call it ML
-
-
+4. Play with the tree format in the tree explorer
+5. Save the tree
+6. Repeat 1-5 using Neighbourjoining, Parsimony and Maximum likelihood tree bulding algorithms (check the questions on the next point and don't automatically produce all the trees at once).
+7. Questions: 
+    
+    1. Is NJ tree similar than UPGMA? Are bootstrap values similar to the ones from UPGMA? Try rooting the tree and see how much it can change
+    2. Here you are also estimating the tree by guessing at a good tree followed by close-neighbour interchange. I suggest that you use level 1 which is equivalent to nearest-neighbour interchange. What is this, by the way? I suggest reducing the number of bootstraps to 100 as the method is slower. a. How does the Parsimony tree differ from the distance based trees?
+    3. Here you should also use fewer bootstrap replicates, because the method is much slower. Remember to save the tree for later use, call it ML
 
