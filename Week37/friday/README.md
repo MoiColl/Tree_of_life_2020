@@ -4,7 +4,7 @@
 
 Remember from last week that we did part of the **steps of the phylogenetic analysis**, from sequence retrieve to distance matrix computation (Fig1).
 
-<img src="Fig1.png" width="50%">
+<img src="Fig1.png" width="100%">
 
 **Fig 1.** Steps of the phylogenetic analysis
 
