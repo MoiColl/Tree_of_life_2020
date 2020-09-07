@@ -28,6 +28,8 @@ This will estimate likelihoods for each substitution model available and rank th
 
 <img src="Fig2.png" width="75%">
 
+**Fig 2.** Substitution models' parameters
+
 From now on, before you start any analysis you are well advised to determine the best substitution model first
 
 ### 2. Tree building
@@ -98,4 +100,5 @@ for UPGMA and NJ I used
 
 <img src="Fig4.png" width="75%">
 
+**Fig 4.** Tree results from FOXP2
 
