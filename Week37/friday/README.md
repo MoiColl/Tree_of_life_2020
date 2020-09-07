@@ -75,3 +75,23 @@ Last week you had a case example. Some of you took FOXP2 from some great apes an
     2. Here you are also estimating the tree by guessing at a good tree followed by close-neighbour interchange. I suggest that you use level 1 which is equivalent to nearest-neighbour interchange. What is this, by the way? I suggest reducing the number of bootstraps to 100 as the method is slower. a. How does the Parsimony tree differ from the distance based trees?
     3. Here you should also use fewer bootstrap replicates, because the method is much slower. Remember to save the tree for later use, call it ML
 
+### 3. Results
+
+#### 3.1. FOXP2 dataset
+
+The best model was
+
+Best model    : HKY
+paramteres    : 9
+BIC           : 7353.666
+AICc          : 7290.166
+
+for UPGMA and NJ I used
+
+Model choosen : TN93
+parameters    : 10
+BIC           : 7361.402
+AICc          : 7290.849
+
+
+
