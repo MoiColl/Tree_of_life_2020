@@ -60,7 +60,9 @@ There are some parts of the tutorial that are wrong. Here you have some fixies:
 
 #### 2.2. Tree building with your case example
 
-Last week you had a case example. Some of you took FOXP2 from some great apes and mouse, but some of you were using the Denisova, the Neanderthal and the Human mtDNA or you were comparing some SARS-CoV2 sequences. Now it's time to get them back! If you did not save the sequences or the alignments, you can get the [FOXP2 sequences](Human_Chimp_Gorilla_Mouse_FOXP2_CDS_DNA_SEQ.fas) I got last time. Be aware that you must align them, before building the tree model or run the model selection since they are just the raw sequences. 
+Last week you had a case example. Some of you took FOXP2 from some great apes and mouse, but some of you were using the Denisova, the Neanderthal and the Human mtDNA or you were comparing some SARS-CoV2 sequences. Now it's time to get them back! If you did not save the sequences or the alignments, you can get the [FOXP2 sequences](Human_Chimp_Gorilla_Mouse_FOXP2_CDS_DNA_SEQ.fas) I got last time. I also ran a phylogenetic analysis with the [S protein gene of the SARS-Cov2](SARS-Cov2_gene_DNA_SEQ.meg) sequenced from diferent patients around the world (Australia, USA, Spain, Denmark and China). If you are more interesetd on this data, you can also use it for this exercise. Be aware that you must align them, before building the tree model or run the model selection since they are just the raw sequences. Alternatively, you can always choose any sequence that you like!
+
+For the dataset you decided:
 
 1. Check which substitution model fits the best for those sequences
 2. Build a UPGMA tree with the best substitution model that it allows (UPGMA can not be run with all substitution models).
