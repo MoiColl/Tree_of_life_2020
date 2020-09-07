@@ -1,4 +1,4 @@
-# Friday Week37 (UNDER CONSTRUCTION)
+# Friday Week37
 
 ## Work plan
 
