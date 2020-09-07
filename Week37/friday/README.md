@@ -83,16 +83,16 @@ Last week you had a case example. Some of you took FOXP2 from some great apes an
 
 #### 3.1. FOXP2 dataset
 
-The best model was
+The best model:
 
-- Best model    : HKY
+- Best model    : HKY (Hasegawa-Kishino-Yano)
 - paramteres    : 9
 - BIC           : 7353.666
 - AICc          : 7290.166
 
-for UPGMA and NJ I used
+for UPGMA and NJ I used:
 
-- Model choosen : TN93
+- Model choosen : TN93 (Tamura-Nei)
 - parameters    : 10
 - BIC           : 7361.402
 - AICc          : 7290.849
@@ -102,3 +102,15 @@ for UPGMA and NJ I used
 
 **Fig 4.** Tree results from FOXP2
 
+#### 3.2. SARS-Cov2 S protein gene dataset
+
+The best model was:
+
+- Best model    : T92 (Tamura 3 parameters)
+- paramteres    : 9
+- BIC           : 10518.312
+- AICc          : 10447.730
+
+<img src="Fig5.png" width="75%">
+
+**Fig 5.** Tree results from SARS-Cov2 S protein gene
