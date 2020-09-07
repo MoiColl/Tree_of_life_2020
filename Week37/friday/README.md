@@ -36,6 +36,8 @@ From now on, before you start any analysis you are well advised to determine the
 
 <img src="Fig3.png" width="75%">
 
+**Fig 3.** Tree algorithm classes.
+
 Follow [Building Trees From Sequence Data](https://www.megasoftware.net/web_help_10/index.htm#t=Part_I_Getting_Started%2FA_Walk_Through_MEGA%2FBuilding_Trees_From_Sequence_Data.htm) tutorial from [MEGAX-Help](https://www.megasoftware.net/web_help_10/index.htm#t=Preface.htm).
 
 There are some parts of the tutorial that are wrong. Here you have some fixies:
@@ -81,17 +83,19 @@ Last week you had a case example. Some of you took FOXP2 from some great apes an
 
 The best model was
 
-Best model    : HKY
-paramteres    : 9
-BIC           : 7353.666
-AICc          : 7290.166
+- Best model    : HKY
+- paramteres    : 9
+- BIC           : 7353.666
+- AICc          : 7290.166
 
 for UPGMA and NJ I used
 
-Model choosen : TN93
-parameters    : 10
-BIC           : 7361.402
-AICc          : 7290.849
+- Model choosen : TN93
+- parameters    : 10
+- BIC           : 7361.402
+- AICc          : 7290.849
 
+
+<img src="Fig4.png" width="75%">
 
 
