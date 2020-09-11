@@ -2,8 +2,6 @@
 
 ## Work plan
 
-### 1.
-
 We are going to discuss the insect phylogenetics paper and answer some questions about it in a shared google docs document.
 
 ### 1. The insect phylogenetics paper
