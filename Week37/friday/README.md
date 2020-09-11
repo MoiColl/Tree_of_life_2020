@@ -77,9 +77,9 @@ For the dataset you decided:
 6. Repeat 1-5 using Neighbourjoining, Parsimony and Maximum likelihood tree bulding algorithms (check the questions on the next point and don't automatically produce all the trees at once).
 7. Questions: 
     
-    1. Is NJ tree similar than UPGMA? Are bootstrap values similar to the ones from UPGMA? Try rooting the tree and see how much it can change
-    2. Here you are also estimating the tree by guessing at a good tree followed by close-neighbour interchange. I suggest that you use level 1 which is equivalent to nearest-neighbour interchange. What is this, by the way? I suggest reducing the number of bootstraps to 100 as the method is slower. a. How does the Parsimony tree differ from the distance based trees?
-    3. Here you should also use fewer bootstrap replicates, because the method is much slower. Remember to save the tree for later use, call it ML
+    1. About NJ: Is NJ tree similar than UPGMA? Are bootstrap values similar to the ones from UPGMA? Try rooting the tree and see how much it can change
+    2. About MP: Here you are also estimating the tree by guessing at a good tree followed by close-neighbour interchange. I suggest that you use level 1 which is equivalent to nearest-neighbour interchange. What is this, by the way? I suggest reducing the number of bootstraps to 100 as the method is slower. How does the Parsimony tree differ from the distance based trees?
+    3. About ML: Here you should also use fewer bootstrap replicates, because the method is much slower. Remember to save the tree for later use, call it ML
 
 ### 3. Results
 
