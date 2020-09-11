@@ -15,7 +15,17 @@ Short description of the [5 datasets](handin1_dataset.zip):
 5. **shaplotypeslyrata**: Protein coding sequences from different self-incompatibility alleles from the species Arabidopsis lyrata together with sequences from other members of the same gene family. 
 
 
+### 1. Primates
 
+1.	Try to reproduce the different trees from the book (Fig 1). Just do UPGMA and NJ trees. Paste in your trees.
+
+<img src="Fig1.png" width="100%">
+
+**Fig 1.** Book figure for the primate dataset.
+
+2.	Why are the branch lengths longer when Kimura distances are used compared to p distances? 
+
+3.	Try to reproduce the best parsimony tree. Does the topology agree with distance methods? What are the bootstrap values? What do they indicate in this tree?
 
 
 ## Work plan
@@ -28,7 +38,7 @@ Remember from last week that we did part of the **steps of the phylogenetic anal
 
 This week we are going to explore which substitution model fits best our data, which tree building algorithm to use and how to assess confidence to that tree. During this exercise it is important that you keep all the results (screenshots with notes in a text editor, such as word, for example) that you obtain in the different parts in order to be able to compare them.
 
-### 1. Testing substitution model
+
 
 Here we are going to test which substitution model is the best of our data.
 
