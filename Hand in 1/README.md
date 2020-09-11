@@ -19,7 +19,7 @@ Short description of the [5 datasets](handin1_dataset.zip):
 
 1.	Try to reproduce the different trees from the book (Fig 1). Just do UPGMA and NJ trees. Paste in your trees.
 
-<img src="Fig1.png" width="100%">
+<img src="Fig1.png" width="75%">
 
 **Fig 1.** Book figure for the primate dataset.
 
