@@ -1,18 +1,18 @@
 # Hand in 1 - 5 datasets analysis (UNDER CONSTRUCTION)
 
-In this hand in you will analyse 5 datasets in order to build phylogenetic trees and get some conclusions out of them. You must write a report answering the questions you will find below including the trees you build with the detaild of how this tree was build (substitution model, alignment method, number of bootstraps...). This report must be uploaded in Blackboard in **PDF** format before **Friday 11:59 am**. 
+In this hand in you will analyse [5 datasets](handin1_dataset.zip) in order to build phylogenetic trees and get some conclusions out of them. You must write a report answering the questions you will find below including the trees you build with the detaild of how this tree was build (substitution model, alignment method, number of bootstraps...). This report must be uploaded in Blackboard in **PDF** format before **Friday 11:59 am**. 
 
-Short description of data sets:
+Short description of the [5 datasets](handin1_dataset.zip):
 
-1. primates: Small data set from mitochondrial gene in 5 primates used many places Nei and Kumar.
+1. primates: Mitochondrial gene in 5 primates used in many examples in Nei and Kumar.
 
-2. homomtDNA: Aligned full mtDNA sequences from two Neanderthals, 1 homo sapiens, 2 denisovans (closer to Neanderthals than humans) and one homo heidelbergensis (outgroup)
+2. homomtDNA: Aligned full mtDNA sequences from two Neanderthals, 1 homo sapiens, 2 denisovans and one homo heidelbergensis.
 
-3. whales: This is a whale phylogeny data set discussed in the book. It is from the gamma-fibronogen gene in 16 mammalian species. It should be in reading frame so it can be analysed as coding. 
+3. whales: Whale phylogeny data set discussed in the book. It is from the gamma-fibronogen gene in 16 mammalian species. It should be in reading frame so it can be analysed as coding. 
 
-4. BRCA1: This consists of sequences of the orthologue to the human breast cancer susceptibility gene, BRCA1, from 20 different rodent species. It is in reading frame.
+4. BRCA1: Orthologue genes to the human breast cancer susceptibility gene (BRCA1) from 20 different rodent species. It is in reading frame.
 
-5. shaplotypeslyrata: This data set consists of protein coding sequences from different self-incompatibility alleles from the species Arabidopsis lyrata together with sequences from other members of the same gene family. 
+5. shaplotypeslyrata: Protein coding sequences from different self-incompatibility alleles from the species Arabidopsis lyrata together with sequences from other members of the same gene family. 
 
 
 
