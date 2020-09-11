@@ -27,21 +27,22 @@ Short description of the [5 datasets](handin1_dataset.zip):
 
 3.	Try to reproduce the best parsimony tree. Does the topology agree with distance methods? What are the bootstrap values? What do they indicate in this tree?
 
+HomomtDNA
+4.	Build a tree using NJ and 100 bootstrap replicates. 
+5.	Is the branching order as you would expect? (exploit your bootstrap evidence)
+6.	Estimate the transition/transversion bias as well as the gamma parameter using maximum likelihood under the Models menu and write down your result
+Whales
+7.	Build trees using parsimony and NJ, UPGMA and likelihood (paste in your trees)
+8.	Do you find the same branching order and bootstrap values? 
+9.	Which methods provide the largest bootstrap support? Is this what you expected?
+BRCA1
+10.	Make two phylogenetic trees using different methods. Paste in your trees
+11.	Are they significantly different when comparing bootstrap values? (assume that a bootstrap value above 70% is significant)
+12.	Is the phylogeny well resolved, i.e. are most bootstrap values > 80%? 
+Shaplotypeslyrata
+13.	Construct different phylogentic trees and bootstrap them. Are they well resolved? 
+14.	Try to estimate two phylogenetic trees using either synonymous or non-synonymous substitutions and Neigbour-Joining using MEGA. Paste in your trees. Are the trees different? Which one do you trust most? 
+Translate into amino acid sequences using MEGA and export an amino acid alignment. View this alignment in alignment explorer, if you are not happy with it you may realign, save in MEGA format and reanalyze in MEGA or another program, now as amino acids 
+15.	Construct protein based trees in MEGA. Paste in your tree
+16.	Does the tree look most like the synonymous or non-synonymous tree from question 14?
 
-## Work plan
-
-Remember from last week that we did part of the **steps of the phylogenetic analysis**, from sequence retrieve to distance matrix computation (Fig1).
-
-<img src="Fig1.png" width="100%">
-
-**Fig 1.** Steps of the phylogenetic analysis
-
-This week we are going to explore which substitution model fits best our data, which tree building algorithm to use and how to assess confidence to that tree. During this exercise it is important that you keep all the results (screenshots with notes in a text editor, such as word, for example) that you obtain in the different parts in order to be able to compare them.
-
-
-
-Here we are going to test which substitution model is the best of our data.
-
-1. Download [`primates.meg`](primates.meg) which is the one from Chapter 3 in Nei and Kumar.
-2. Open MEGAX and import this data to MEGAX. This can be easily done dragging the file to the main MEGAX window or cliking on the **DATA** button. 
-3. Click **MODELS** on the main MEGAX window and click **Find Best DNA/Protein Models (ML)...**
