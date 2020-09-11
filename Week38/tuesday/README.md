@@ -1,4 +1,4 @@
-# Tuesday Week38 (UNDER CONSTRUCTION)
+# Tuesday Week38 
 
 ## Work plan
 
