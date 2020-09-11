@@ -1,6 +1,6 @@
 # Hand in 1 - 5 datasets analysis (UNDER CONSTRUCTION)
 
-In this hand in you will analyse [5 datasets](handin1_dataset.zip) in order to build phylogenetic trees and answer some questions (below) for each data set. You must write a report answering the questions including the trees you build for each with the detailed information on how this tree was constructed (substitution model, alignment method, number of bootstraps...). This report must be uploaded in Blackboard in **PDF** format before **Friday 11:59 am**. 
+In this hand in you will analyse [5 datasets](handin1_dataset.zip) using the phylogenetic concepts and tools you have learned during the last sessions. You must write a report answering some questions for each dataset (below) including the trees you build. Make sure to include detailed information on how the tree was produced (substitution model, alignment method, number of bootstraps...). This report must be uploaded in Blackboard in **PDF** format before **Friday 25th of September at 11:59 am**. 
 
 Short description of the [5 datasets](handin1_dataset.zip):
 
