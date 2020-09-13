@@ -4,7 +4,7 @@ In this hand in you will analyse [5 datasets](handin1_dataset.zip) using the phy
 
 <img src="Fig1.png" width="50%">
 
-**Fig 1.** Example of how to include a tree in your report.
+>**Fig 1.** Example of how to include a tree in your report.
 
 **NOTE:** if the sequences are already aligned, create the tree from the original file, don't unalign them and align them again. If you do so, indicate that in your report. 
 
