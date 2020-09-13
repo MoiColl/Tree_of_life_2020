@@ -6,7 +6,7 @@ Remember from last week that we did part of the **steps of the phylogenetic anal
 
 <img src="Fig1.png" width="100%">
 
-**Fig 1.** Steps of the phylogenetic analysis
+>**Fig 1.** Steps of the phylogenetic analysis
 
 This week we are going to explore which substitution model fits best our data, which tree building algorithm to use and how to assess confidence to that tree. During this exercise it is important that you keep all the results (screenshots with notes in a text editor, such as word, for example) that you obtain in the different parts in order to be able to compare them.
 
@@ -28,7 +28,7 @@ This will estimate likelihoods for each substitution model available and rank th
 
 <img src="Fig2.png" width="75%">
 
-**Fig 2.** Substitution models' parameters
+>**Fig 2.** Substitution models' parameters
 
 From now on, before you start any analysis you are well advised to determine the best substitution model first
 
@@ -38,7 +38,7 @@ From now on, before you start any analysis you are well advised to determine the
 
 <img src="Fig3.png" width="75%">
 
-**Fig 3.** Tree algorithm classes.
+>**Fig 3.** Tree algorithm classes.
 
 Follow [Building Trees From Sequence Data](https://www.megasoftware.net/web_help_10/index.htm#t=Part_I_Getting_Started%2FA_Walk_Through_MEGA%2FBuilding_Trees_From_Sequence_Data.htm) tutorial from [MEGAX-Help](https://www.megasoftware.net/web_help_10/index.htm#t=Preface.htm).
 
@@ -102,7 +102,7 @@ for UPGMA and NJ I used:
 
 <img src="Fig4.png" width="75%">
 
-**Fig 4.** Tree results from FOXP2
+>**Fig 4.** Tree results from FOXP2
 
 #### 3.2. SARS-Cov2 S protein gene dataset
 
@@ -115,4 +115,4 @@ The best model was:
 
 <img src="Fig5.png" width="75%">
 
-**Fig 5.** Tree results from SARS-Cov2 S protein gene
+>**Fig 5.** Tree results from SARS-Cov2 S protein gene
