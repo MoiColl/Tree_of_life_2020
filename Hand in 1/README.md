@@ -31,7 +31,7 @@ Short description of the [5 datasets](handin1_dataset.zip) which might be helpfu
 
 <img src="Fig2.png" width="50%">
 
-**Fig 2.** Nei and Kumar book figure for the primate dataset.
+> **Fig 2.** Nei and Kumar book figure for the primate dataset.
 
 1.2. Why are the branch lengths longer when using Kimura substitution model compared to p distances model? 
 
