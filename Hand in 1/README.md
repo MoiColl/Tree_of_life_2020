@@ -1,6 +1,6 @@
 # Hand in 1 - Phylogenetic tree analysis
 
-In this hand in you will analyse [5 datasets](handin1_dataset.zip) using the phylogenetic concepts and tools you have learned during the last sessions. You must write a report answering some questions for each dataset (below) including the trees you build. Make sure to include detailed information on how the tree was produced (substitution model, alignment method, number of bootstraps...). This report must be uploaded in Blackboard in **PDF** format before **Friday 25th of September at 11:59 am**. 
+In this hand in you will analyse [5 datasets](handin1_dataset.zip) using the phylogenetic concepts and tools you have learned during the last sessions. You must write a report answering some questions for each dataset (below) including the trees you build. Make sure to include detailed information on how the tree was produced (substitution model, alignment method, number of bootstraps...) (Fig1). This report must be uploaded in Blackboard in **PDF** format before **Friday 25th of September at 11:59 am**. 
 
 <img src="Fig1.png" width="50%">
 
@@ -74,4 +74,4 @@ Short description of the [5 datasets](handin1_dataset.zip) which might be helpfu
 
 5.3. Translate the DNA sequence into a protein sequence. Align these proteins and save your result as a MEGA (.meg) file. Then, construct a tree with the protein aligned sequences. Does the tree look most like the synonymous or non-synonymous tree from question 5.2? Why?
 
-
+5.4. BONUS EXERCISE (it is not mandatory to include it in the hand in). In MEGAX, open the file in the ALIGN menu. Select a sequence (the human will do) and BLAST it. Alternatively, you can open the file in a text editor (Sublime, textEdit, notepad...) copy the human sequence and paste it in [BLAST](https://blast.ncbi.nlm.nih.gov/Blast.cgi?PROGRAM=blastn&PAGE_TYPE=BlastSearch&LINK_LOC=blasthome) and do a manual blast search. Which sequence is the EKAF homologous to? Surprised?
