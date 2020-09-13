@@ -6,7 +6,9 @@ In this hand in you will analyse [5 datasets](handin1_dataset.zip) using the phy
 
 **Fig 1.** Example of how to include a tree in your report.
 
-Short description of the [5 datasets](handin1_dataset.zip) which might be helpful to interpret some of your results:
+**NOTE:** if the sequences are already aligned, create the tree from the original file, don't unalign them and align them again. If you do so, indicate that in your report. 
+
+Short description of the [5 datasets](handin1_dataset.zip) which might be helpful to you when you will interpret some of your results:
 
 1. **primates**: Mitochondrial gene in 5 primates used in many examples in Nei and Kumar.
 
