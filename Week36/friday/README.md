@@ -53,7 +53,7 @@ There are some parts of the tutorial that are wrong. Here you have some fixies:
 
     <img src="Fig1.png" width="50%">
 
-    **Fig1.** Summary drop down menu location
+    >**Fig1.** Summary drop down menu location
 
 #### 2.2. Retrieving sequences BY SEQUENCE HOMOLOGY from GenBank using BLAST and Aligning them with MEGAX
 
@@ -83,7 +83,7 @@ You might find an entry for the CDS of the gene you are interested. However, if 
 
 <img src="Fig2.png" width="75%">
 
-**Fig2.** How to get the CDS sequence form the RefSeq entry in GenBank. Red circles show where you must click.
+>**Fig2.** How to get the CDS sequence form the RefSeq entry in GenBank. Red circles show where you must click.
 
 Once you made your mind about which sequence you are going to work on...
 
@@ -119,7 +119,7 @@ The protein differences I've found I show them in Fig3 below. The deletions are 
 <img src="Fig3a.png" width="75%">
 <img src="Fig3b.png" width="75%">
 
-**Fig3.** Indels and substitutions in the FOXP2 gene.
+>**Fig3.** Indels and substitutions in the FOXP2 gene.
 
 ### 4. Estimate pairwise distances among sequences
 
