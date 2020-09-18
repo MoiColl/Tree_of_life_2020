@@ -20,7 +20,7 @@ Short description of the [5 datasets](handin1_dataset.zip) which might be helpfu
 
 3. **whales**: Whale phylogeny data set discussed in the book. It is from the gamma-fibronogen gene in 16 mammalian species. It should be in reading frame so it can be analysed as coding. 
 
-4. **BRCA1**: Orthologue genes to the human breast cancer susceptibility gene (BRCA1) from 20 different rodent species. It is in reading frame.
+4. **BRCA1**: Orthologue genes to the human breast cancer susceptibility gene (BRCA1) from 23 different rodent species. It is in reading frame.
 
 5. **EKAF**: Protein coding sequences from mouse, gorilla, chimpanzee and human. This protein is suspected to give humans the hability to lie and fake stories.  
 
