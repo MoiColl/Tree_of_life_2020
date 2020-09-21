@@ -6,7 +6,7 @@ We are going to discuss the HIV infection in a dentist paper and answer some que
 
 ### 1. The HIV infection paper
 
-You should read this paper before Monday class:
+You should read this paper before Tuesday class:
 
 CHIN-YIH OU, CAROL A. CIESIELSKI, GERALD MYERS, CLAUDIU I. BANDEA, CHI-CHENG LUO, BETTE T. M. KORBER, JAMES I. MULLINS, GERALD SCHOCHETMAN, RUTH L. BERKELMAN, A. NIKKI ECONOMOU, JOHN J. WITTE, LAWRENCE J. FURMAN, GLEN A. SATTEN, KERSTI A. MACLNNES, JAMES W. CURRAN, HAROLD W. JAFFE, LABORATORY INVESTIGATION GROUP, EPIDEMIOLOGIC INVESTIGATION GROUP. [Molecular Epidemiology of HIV Transmission in a Dental Practice](https://science.sciencemag.org/content/256/5060/1165). SCIENCE. 22 MAY 1992 : 1165-1171
 
