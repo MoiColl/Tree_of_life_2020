@@ -1,9 +1,14 @@
 ---
 title: "R Notebook"
-output:
-  html_document:
-    df_print: paged
+output: rmarkdown::github_document
+
 ---
+```{r}
+  #output:
+  #html_document:
+  #  df_print: paged
+```
+
 
 # Introduction to phylogenies in R
 
