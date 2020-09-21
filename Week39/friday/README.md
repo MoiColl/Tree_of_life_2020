@@ -15,7 +15,7 @@ In this section, I'll post to some useful links to download, install and learn R
 
 #### 1.2. R tutorials
 
-- To get started, you can follow the [BasicBasics1](https://rladiessydney.org/courses/ryouwithme/01-basicbasics-1/) brief tutorial of what are the different windows in Rstudio and the handy options produced by R-Ladies Sydney. I also recomend to watch the youtube [video](https://youtu.be/kfcX5DEMAp4).
+- To get started, you can follow the [BasicBasics1](https://rladiessydney.org/courses/ryouwithme/01-basicbasics-1/) brief tutorial of what are the different windows in Rstudio and the handy options, produced by R-Ladies Sydney. I also recomend to watch the youtube [video](https://youtu.be/kfcX5DEMAp4).
 
     + In the BasicBasics 1 video, they talk about R Projects. Don't worry about that, we are not going to use them in this course. 
     
