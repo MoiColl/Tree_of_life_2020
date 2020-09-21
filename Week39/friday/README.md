@@ -7,7 +7,7 @@ This week we are going to learn how to create and manipulate phylogenetic trees 
 
 ### 1. R installation and tutorials
 
-In this section, I'll post to some useful links to download, install and learn R. You don't need to follow this if you have a basic understanding of R. If you need to learn R, I recomend that you do these tutorials little by little. For this week, you won't need to code in R yourself. Thus, I recomend that you space tutorials between this sesion and next and learn R gradually. However, it will be very helpfull for you if you learn the basics to understand what is going on. If you find some parts of the tutorial challenging or complicated, don't force yourself and skip those parts.
+In this section, I'll post to some useful links to download, install and learn R. You don't need to follow this if you have a basic understanding of R. If you need to learn R, I recomend that you do these tutorials. If you find some parts of the tutorial challenging or complicated, don't force yourself and skip those parts or leave them for latter. 
 
 #### 1.1. Downloading and installing R and R studio
 
