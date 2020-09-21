@@ -1,13 +1,9 @@
-R Notebook
+Introduction to phylogenies in R
 ================
 
-``` r
-  #output:
-  #html_document:
-  #  df_print: paged
-```
+###### Author : Liam J. Revell
 
-# Introduction to phylogenies in R
+###### Adapted by: Moisès Coll Macià
 
 This tutorial gives a basic introduction to phylogenies in the R
 language and statistical computing environment.
@@ -143,7 +139,7 @@ Let’s plot this phylogeny in three different styles:
 plot(vert.tree,no.margin=TRUE,edge.width=2)
 ```
 
-![](ape_intro_files/figure-gfm/unnamed-chunk-11-1.png)<!-- -->
+![](ape_intro_files/figure-gfm/unnamed-chunk-10-1.png)<!-- -->
 
 ``` r
 ## load phytools
@@ -156,14 +152,14 @@ library(phytools)
 roundPhylogram(vert.tree)
 ```
 
-![](ape_intro_files/figure-gfm/unnamed-chunk-13-1.png)<!-- -->
+![](ape_intro_files/figure-gfm/unnamed-chunk-12-1.png)<!-- -->
 
 ``` r
 plot(unroot(vert.tree),type="unrooted",no.margin=TRUE,lab4ut="axial",
     edge.width=2)
 ```
 
-![](ape_intro_files/figure-gfm/unnamed-chunk-14-1.png)<!-- -->
+![](ape_intro_files/figure-gfm/unnamed-chunk-13-1.png)<!-- -->
 
 The object created in memory when we simulate or estimate a phylogeny,
 or read one from an input file, is a list of class `"phylo"`.
@@ -220,7 +216,7 @@ tiplabels()
 nodelabels()
 ```
 
-![](ape_intro_files/figure-gfm/unnamed-chunk-17-1.png)<!-- -->
+![](ape_intro_files/figure-gfm/unnamed-chunk-16-1.png)<!-- -->
 
 Here I have overlain the ‘node numbers’ - the indices from the `"phylo"`
 object `edge` which is a matrix containing the starting & ending node
@@ -297,7 +293,7 @@ anolis.tree
 plotTree(anolis.tree,ftype="i",fsize=0.6,lwd=1)
 ```
 
-![](ape_intro_files/figure-gfm/unnamed-chunk-22-1.png)<!-- -->
+![](ape_intro_files/figure-gfm/unnamed-chunk-21-1.png)<!-- -->
 
 This is a tree containing:
 
@@ -337,7 +333,7 @@ plot(unroot(anolis.tree),type="unrooted",cex=0.6,
     no.margin=TRUE)
 ```
 
-![](ape_intro_files/figure-gfm/unnamed-chunk-25-1.png)<!-- -->
+![](ape_intro_files/figure-gfm/unnamed-chunk-24-1.png)<!-- -->
 
 Another convenient plotting method for large *rooted* trees is a
 circular or ‘fan’ tree:
@@ -347,7 +343,7 @@ plotTree(anolis.tree,type="fan",fsize=0.7,lwd=1,
     ftype="i")
 ```
 
-![](ape_intro_files/figure-gfm/unnamed-chunk-26-1.png)<!-- -->
+![](ape_intro_files/figure-gfm/unnamed-chunk-25-1.png)<!-- -->
 
 It is pretty easy to drop species from the tree, or to extract clades.
 For instance the anoles from Puerto Rico (in this phylogeny) consist of
@@ -385,7 +381,7 @@ plotTree(anolis.tree,type="fan",fsize=0.7,lwd=1,
 add.arrow(anolis.tree,tip=ii,arrl=1)
 ```
 
-![](ape_intro_files/figure-gfm/unnamed-chunk-29-1.png)<!-- -->
+![](ape_intro_files/figure-gfm/unnamed-chunk-28-1.png)<!-- -->
 
 Now let’s prune these species from the tree:
 
@@ -395,7 +391,7 @@ plotTree(anolis.noPR,type="fan",fsize=0.7,lwd=1,
     ftype="i")
 ```
 
-![](ape_intro_files/figure-gfm/unnamed-chunk-30-1.png)<!-- -->
+![](ape_intro_files/figure-gfm/unnamed-chunk-29-1.png)<!-- -->
 
 Or, we can extract the clade that includes all but two of the species:
 
@@ -406,7 +402,7 @@ pr.clade<-extract.clade(anolis.tree,node)
 plotTree(pr.clade,ftype="i")
 ```
 
-![](ape_intro_files/figure-gfm/unnamed-chunk-31-1.png)<!-- -->
+![](ape_intro_files/figure-gfm/unnamed-chunk-30-1.png)<!-- -->
 
 Now, let’s prune everything in the tree except these species:
 
@@ -416,7 +412,7 @@ pr.tree<-drop.tip(anolis.tree,
 plotTree(pr.tree,ftype="i")
 ```
 
-![](ape_intro_files/figure-gfm/unnamed-chunk-32-1.png)<!-- -->
+![](ape_intro_files/figure-gfm/unnamed-chunk-31-1.png)<!-- -->
 
 Finally, we can do it *interactively* using `collapseTree`
 
@@ -441,7 +437,7 @@ t1<-read.tree(text="((A,B,C),D);")
 plot(t1,type="cladogram")
 ```
 
-![](ape_intro_files/figure-gfm/unnamed-chunk-34-1.png)<!-- -->
+![](ape_intro_files/figure-gfm/unnamed-chunk-33-1.png)<!-- -->
 
 ``` r
 ## check if binary
@@ -456,7 +452,7 @@ t2<-multi2di(t1)
 plot(t2,type="cladogram")
 ```
 
-![](ape_intro_files/figure-gfm/unnamed-chunk-36-1.png)<!-- -->
+![](ape_intro_files/figure-gfm/unnamed-chunk-35-1.png)<!-- -->
 
 ``` r
 is.binary.tree(t2)
@@ -472,9 +468,9 @@ ones:
 > MOI: the `seed` is to fix a random process. For example, if you
 > randomly draw a number between 1 to 10, every time you run it, you
 > will get a different number. However, if you set the `seed` you will
-> allways get the same result. To see that, you can comment the
+> always get the same result. To see that, you can comment the
 > `set.seed(1)`, run the chunk multiple times (to see that you get
-> different trees), and then uncoment the `set.seed(1)` and run again
+> different trees), and then uncomment the `set.seed(1)` and run again
 > multipe times (to see taht you allways get the same result).
 
 ``` r
@@ -484,7 +480,7 @@ tree<-rtree(n=40)
 plotTree(tree,node.numbers=T)
 ```
 
-![](ape_intro_files/figure-gfm/unnamed-chunk-38-1.png)<!-- -->
+![](ape_intro_files/figure-gfm/unnamed-chunk-37-1.png)<!-- -->
 
 ``` r
 ## first, rotate about node #52
@@ -492,7 +488,7 @@ rt.52<-rotate(tree,52)
 plotTree(rt.52)
 ```
 
-![](ape_intro_files/figure-gfm/unnamed-chunk-39-1.png)<!-- -->
+![](ape_intro_files/figure-gfm/unnamed-chunk-38-1.png)<!-- -->
 
 ``` r
 ## now rotate all nodes
@@ -500,7 +496,7 @@ rt.all<-rotateNodes(tree,"all")
 plotTree(rt.all)
 ```
 
-![](ape_intro_files/figure-gfm/unnamed-chunk-40-1.png)<!-- -->
+![](ape_intro_files/figure-gfm/unnamed-chunk-39-1.png)<!-- -->
 
 ``` r
 ## ok, now let's re-root the tree at node #67
@@ -508,7 +504,7 @@ rr.67<-root(tree,node=67)
 plotTree(rr.67)
 ```
 
-![](ape_intro_files/figure-gfm/unnamed-chunk-41-1.png)<!-- -->
+![](ape_intro_files/figure-gfm/unnamed-chunk-40-1.png)<!-- -->
 
 ``` r
 ## this creates a trifurcation at the root
@@ -517,7 +513,7 @@ rr.65<-reroot(tree,65,position=0.5*tree$edge.length[which(tree$edge[,2]==65)])
 plotTree(rr.65)
 ```
 
-![](ape_intro_files/figure-gfm/unnamed-chunk-42-1.png)<!-- -->
+![](ape_intro_files/figure-gfm/unnamed-chunk-41-1.png)<!-- -->
 
 We can also change the position of the root interactively. For instance:
 

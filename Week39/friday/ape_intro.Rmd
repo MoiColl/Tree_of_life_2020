@@ -1,16 +1,10 @@
 ---
-title: "R Notebook"
+title: "Introduction to phylogenies in R"
 output: rmarkdown::github_document
-
 ---
-```{r}
-  #output:
-  #html_document:
-  #  df_print: paged
-```
 
-
-# Introduction to phylogenies in R
+###### Author : Liam J. Revell
+###### Adapted by: Moisès Coll Macià
 
 This tutorial gives a basic introduction to phylogenies in the R language and statistical computing environment.
 
@@ -290,7 +284,7 @@ is.binary.tree(t2)
 
 Lots of other manipulations are possible in R, but here are some simple ones:
 
-> MOI: the `seed` is to fix a random process. For example, if you randomly draw a number between 1 to 10, every time you run it, you will get a different number. However, if you set the `seed` you will allways get the same result. To see that, you can comment the `set.seed(1)`, run the chunk multiple times (to see that you get different trees), and then uncoment the `set.seed(1)` and run again multipe times (to see taht you allways get the same result).
+> MOI: the `seed` is to fix a random process. For example, if you randomly draw a number between 1 to 10, every time you run it, you will get a different number. However, if you set the `seed` you will always get the same result. To see that, you can comment the `set.seed(1)`, run the chunk multiple times (to see that you get different trees), and then uncomment the `set.seed(1)` and run again multipe times (to see taht you allways get the same result).
 
 
 
