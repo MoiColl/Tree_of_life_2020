@@ -6,7 +6,7 @@ We are going to discuss the insect phylogenetics paper and answer some questions
 
 ### 1. The insect phylogenetics paper
 
-You should read this paper before Monday class:
+You should read this paper before Tuesday class:
 
 Michael W. Gaunt, Michael A. Miles, [An Insect Molecular Clock Dates the Origin of the Insects and Accords with Palaeontological and Biogeographic Landmarks, Molecular Biology and Evolution](https://doi.org/10.1093/oxfordjournals.molbev.a004133), Volume 19, Issue 5, May 2002, Pages 748–761
 
