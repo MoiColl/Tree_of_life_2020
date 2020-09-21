@@ -1,4 +1,4 @@
-# Friday Week39 (UNDER CONSTRUCTION)
+# Friday Week39
 
 ## Work plan
 
