@@ -4,7 +4,7 @@
 
 We are going to discuss the insect phylogenetics paper and answer some questions about it in a shared google docs document.
 
-### 1. The insect phylogenetics paper
+### The insect phylogenetics paper
 
 You should read this paper before Tuesday class:
 
