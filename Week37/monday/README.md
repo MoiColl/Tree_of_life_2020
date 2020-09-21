@@ -4,7 +4,7 @@
 
 We are going to discuss the MODELTEST paper and answer some questions about it in a shared google docs document.
 
-### 1. MODELTEST algorithm paper
+### MODELTEST algorithm paper
 
 You should read this paper before Monday class:
 
