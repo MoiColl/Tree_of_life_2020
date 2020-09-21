@@ -19,7 +19,7 @@ In this section, I'll post to some useful links to download, install and learn R
 
     + In the BasicBasics 1 video, they talk about R Projects. Don't worry about that, we are not going to use them in this course. 
     
-- In the [education rstudio page](https://education.rstudio.com/learn/beginner/) you will find that they (and I) recomend to follow chapter [*Getting Started with R and RStudio*](https://moderndive.netlify.app/1-5-conclusion.html) (although the chapter is actually called *Getting Started with Data in R* on the webpage) from a book entitled *ModernDive*.
+- In the [education rstudio page](https://education.rstudio.com/learn/beginner/) you will find that they recomend to follow chapter *Getting Started with R and RStudio* (although the chapter is actually called *Getting Started with Data in R* on the webpage) from a book entitled *ModernDive*. Follow the [*Getting Started with R and RStudio*](https://moderndive.netlify.app/1-5-conclusion.html).
 
 - With this you should have enough to get started but, if you want more, you can find lots of other R courses and tutorials on internet. For example, I also recomend this [page](https://whitlockschluter.zoology.ubc.ca/r-code), especially the [Brief intro to R](https://whitlockschluter.zoology.ubc.ca/r-code/intror). 
 
