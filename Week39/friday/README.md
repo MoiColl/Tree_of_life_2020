@@ -23,4 +23,14 @@ In this section, I'll post to some useful links to download, install and learn R
 
 - With this you should have enough to get started but, if you want more, you can find lots of other R courses and tutorials on internet. For example, I also recomend this [page](https://whitlockschluter.zoology.ubc.ca/r-code), especially the [Brief intro to R](https://whitlockschluter.zoology.ubc.ca/r-code/intror). 
 
+- I will be using rmarkdown files (instead of basic R text files) to run the exercises. I think they are a great tool to combine notes with code and they create an output which is perfect to read afterwards. Thus, if you are unfamiliar with rmarkdown, I recomend that you also learn the basics. [Here](https://rmarkdown.rstudio.com/articles_intro.html) you have a brief intro to rmarkdown. Again, you can find more info and other tutorials such as this 8 min youtube [video](https://www.youtube.com/watch?v=1XJTddpcj3w) that summarises what rmarkdown esentially is. If you want to learn the grammar of how to format the text in rmarkdown, check this [cheat sheet](https://rstudio.com/wp-content/uploads/2015/02/rmarkdown-cheatsheet.pdf).
+
+
+### 2. Phylogenetics in R with `ape`
+
+Once you are more confident with R, you can follow the introduction to the `ape` package to analyse phylogenetic data in R. For that, you should download the [Week39download.zip](Week39download.zip) and open the `ape_intro.Rmd`. This gives you a brief overview of how to play with tree structures in R and what you can do. Note that when I wanted to comment on something, I write it as:
+
+> MOI: this is a Moi comment
+
+You can check my output [here](ape_intro.md).
 
