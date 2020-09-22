@@ -18,3 +18,10 @@ Do you want to know more about the case? [Here](https://www.nytimes.com/1993/06/
 
 as it is said in this [link](https://www.upi.com/Archives/1994/08/31/Study-AIDS-dentist-likely-serial-killer/1726778305600/).
 
+## Extra info
+
+1. Paper that investigates the COVID19 spread in the early times of the first outbreak and study of some particular cases in Iceland
+
+    Gudbjartsson D, Helgason A, Jonsson H, Magnusson O, Melsted P, Norddahl G et al. [Spread of SARS-CoV-2 in the Icelandic Population](https://www.nejm.org/doi/full/10.1056/NEJMoa2006100). New England Journal of Medicine. 2020;382(24):2302-2315.
+
+2. Repository of all sequenced SARS-CoV2 worldwide with interactive phylogenetic tree of the sequences ([link](https://nextstrain.org/ncov/global))
