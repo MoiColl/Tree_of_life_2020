@@ -2,7 +2,7 @@
 
 ## Work plan
 
-### 1. Nielsen and Slatkin book exercises - Chapter 1, 2, 3
+### Nielsen and Slatkin book exercises - Chapter 1, 2, 3
 
 During this TA you will have time to answer the Nielsen and Slatkin book exercises, Chapter 1, 2, 3. Since it's quite some, try to do some work at home and leave the exercises you find more difficult to do at class. We again are going to have a shared google docs where we are going to answer the questions so that everybody has the consensuated solutions. 
 
