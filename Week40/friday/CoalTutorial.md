@@ -74,15 +74,20 @@ step	3.
 In	the	end you	should	have	a	tree,	which	is	a	simulation	of	a	coalescence	tree. Try	to	do	this	a	
 couple times	until	you	feel	like	you	know	how	it	is	done	and	understand	how the coalescence process works	(if after	drawing	a	few	trees still	don’t	understand,	then	feel	free	to	ask for	help!).
 
-To speed up the process, I wrote an R funtion which is going to tell you the nodes that coalesce, the time it took, and the total coalescence time. Furthermore, it is going to produce a plot like the one you have in the gif above. You can try to run the function by downloading 
+To speed up the process, I wrote an R funtion which is going to tell you the nodes that coalesce, the time it took, and the total coalescence time. Furthermore, it is going to produce a plot like the one you have in the gif above. You must download the [`coalmoi.R`](coalmoi.R) code and change the path to it in the next R command:
 
 ```
-source()
-dfs <- sim_coal_moi()
-plot_coal(dfs[[1]], dfs[[2]])
+source("/Users/au552345/Documents/Tree_of_life_2020/Week40/friday/coalmoi.R")
 ```
 
-## Exercise	B:	Exploring	the	basic	properties	of	a	standard	coalescence tree	
+Then, you can run the following commands a bunch of times to see what happens:
+
+```
+coalsim <- sim_coal_moi()
+plot_coal(coalsim[[1]], coalsim[[2]])
+```
+
+## 2 - Exploring	the	basic	properties	of	a	standard	coalescence tree	
 
 Doing	this	by	hand	is	obviously a	bit	tedious.	So	based	on	the	R	code	snippets	you	already	got, we have built a function	that	allows	you	to	do	this	automatically	(it	even	makes	a	drawing	of	the	tree).	You	
 can	use	it from the course server	by	typing the	following	in	R:
@@ -122,18 +127,12 @@ second,	…,	or	the	last)?	And	which	event	takes	the	shortest on	average?
 
 2) Is	that	what	you	would	expect? Recall that the	mean	of	an	exponential	distribution	with rate	lambda	is	1/lambda	
 and	the	coalescence rate	when	there	are	n nodes	left	is	n(n-1)/2.	So	the	mean	is	2/(n(n-1)),	so
-for	instance	for	when	there	are	5	nodes	left	the	mean	coalescent	time	is	2/(5(5-1))=0.1
+for	instance	for	when	there	are	5	nodes	left	the	mean	coalescent	time	is	2/(5(5-1))=0.1. For this question and the rest, look at Figure 2 to get a sence of the mean and the variance of the exponential distributions.
 
 3) Which	coalescence event	time	seems to	vary	the	most?
 
 4) Is	that	what	you	would	expect? Recall that, if we have a random variable that follows an exponential distribution with rate lambda, then its variance is equal 1/(lambda^2).
 
-5) Finally,	imagine	the	following	case:	a	researcher	has	estimated	the	structure	of	a	tree	for	
-mtDNA	from	a	species	sampled	in	a	single	location.	She	obtains	a	tree	looking	as	follows:
+<img src="Fig2.png" width="50%">
 
-![alt text](https://github.com/FerRacimo/CopenhagenTutorial/blob/master/Tree0.png)
-
-Based	on	the	structure	of	the	tree,	i.e.	two	groups	of	related	individuals	separated	by	long	
-branches	down	to the	root	of	the	tree,	she	concludes	that	there	must	be population	
-subdivision	with	two	clearly	differentiated	groups.	 Based	on	what	you	have	learned	from	
-the	simulations,	do	you	agree	with	this	conclusion?
+>**Fig 1.** coalescence tree simulation
