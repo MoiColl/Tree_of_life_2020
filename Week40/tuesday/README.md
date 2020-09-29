@@ -26,3 +26,20 @@ In case you are wandering about the homomtDNA dataset questions, here you have s
 
 5. [Perspective](https://science.sciencemag.org/content/369/6511/1565) about the Neanderthal Y chromosome paper by Mikkel Heide Schierup.
 
+6. R code for the distance model plot:
+
+```
+library(tidyverse)
+
+Q = 0.25 #proportion of transversions
+P = 1-Q  #proportion of transitions
+
+data.frame(p = seq(0.01, 0.5, 0.01)) %>%
+  mutate(pdist = p,
+         JC    = (-3/4) * log( 1-((4/3)*p)), 
+         K     = ((1/2)*log(1/(1-(2*P*p)-(Q*p))))+((1/4)*log(1/(1-(2*Q*p))))) %>%
+  gather(model, dist, pdist, JC, K) %>%
+  ggplot() +
+  geom_point(aes(x = p, y = dist, color = model)) +
+  geom_line(aes(x = p, y = dist, group = model, color = model))
+```
