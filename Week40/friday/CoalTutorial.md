@@ -16,7 +16,6 @@ drawing	a	tree	above them (which we will do shortly).	We will henceforth call th
 simply	writing:
 
 ```
-R
 nodes = c(1,2,3,4,5) # make the list and call it nodes
 nodes # print the list
 ```
