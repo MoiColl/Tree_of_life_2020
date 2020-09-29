@@ -1,7 +1,7 @@
-###### This tutorial was obtained from [Fernando Racimo's GitHub](https://github.com/FerRacimo/CopenhagenTutorial/blob/master/WrightFisherTutorial.md). I modified the original version to fit the tutorial to my class needs. 
+##### This tutorial was obtained from [Fernando Racimo's GitHub](https://github.com/FerRacimo/CopenhagenTutorial/blob/master/WrightFisherTutorial.md). I modified the original version to fit the tutorial to my class needs. 
 
-Exercises using the Wright-Fisher model
-===============
+# Exercises using the Wright-Fisher model
+
 (based on scripts by Graham Coop)
 
 
