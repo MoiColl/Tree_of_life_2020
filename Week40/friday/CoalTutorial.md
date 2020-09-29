@@ -1,75 +1,128 @@
-###### This tutorial was obtained from [Fernando Racimo's GitHub](https://github.com/FerRacimo/CopenhagenTutorial/blob/master/WrightFisherTutorial.md). I modified the original version to fit the tutorial to my class needs. 
+###### This tutorial was obtained from [Fernando Racimo's GitHub](https://github.com/FerRacimo/CopenhagenTutorial/blob/master/CoalTutorial.md). I modified the original version to fit the tutorial to my class needs. 
 
-# Exercises using the Wright-Fisher model
+Exercises in coalescent theory
+===============
 
-(based on scripts by Graham Coop)
+Based on notes by Ida Moltke.
 
+## Exercise	A:	Simulating	a	coalescence	tree	assuming	a	constant	population	size
 
-Start running the RStudio and load the following R file (you must download the [`simulateWF.R`](simulateWF.R) code and change the path to it in the next R command):
+The	purpose	of	this first	exercise	is	to	make	sure	it	is	clear	how	a	coalescence tree	is	simulated. We will use R so a little familiarity with this language will help. First, let	us try to	simulate	a	coalescence tree	for	five gene	copies by	hand:
 
-```
-source("/Users/au552345/Documents/Tree_of_life_2020/Week40/friday/simulateWF.R")
-```
+1. Start	by	drawing	on a piece of paper a	small circle	for	each	of	the	five	gene	copies. They should be lined up on	an	invisible horizontal line	and you should leave enough	space	above the circles for	
+drawing	a	tree	above them (which we will do shortly).	We will henceforth call these five circles "nodes" and label them 1,2,3,4,5
 
-This script contains a set of functions for simulating the Wright-Fisher model, both forwards and backwards in time. We'll play with these functions to gain some intuition about how the model works.
-
-## 1 - Thinking forwards in time: 2 alleles
-
-First, we'll run a Wright-Fisher model beginning with a population with two alleles. The population will have size 2N = 10 (so N = 5 diploids) and we'll run the simulation for 15 generations:
+2. Also,	make	a	list	of	the	node	names.	You	can	either	do	this	by	hand	or	you	can	do	it	in	R	by	
+simply	writing:
 
 ```
-WF_twoalleles(5,15)
+R
+nodes = c(1,2,3,4,5) # make the list and call it nodes
+nodes # print the list
 ```
 
-What do you observe plotted on the screen?
-
-### Q1
-
-Run this line 5 times, and record how many times the red allele fixes, how many times the blue allele fixes and how many times the population remains polymorphic (both the blue and the red allele still co-exist). Compare your results with your neighbor. Does there seem to be a preference for whether the blue or red allele fixes? Why do you think this is so? Hint: check the frequency of the two alleles at the beginning of the simulation.
-
-You may have noticed that a vector of values also gets printed into the console every time we run this simulation. This is the allele counts of the blue allele. We can use this vector to trace the frequency of the blue allele over time:
+3. Sample	which	two	nodes	will	coalesce	first	(going	back	in	time)	by	randomly	picking	two	of	the	
+nodes.	You	can	either	do	this	by	hand	or	you	can	do	it	in	R	by	typing:
 
 ```
-bluecounts <- WF_twoalleles(5,15)
-bluefreq <- bluecounts / (2 * 5)
-plot(bluefreq,ylim=c(0,1),type="b",col="blue",pch=19,xlab="generations",ylab="Blue frequency")
+nodecount = length(nodes) # save the number of nodes in the variable nodecount
+tocoalesce = sample(1:nodecount, size=2) # sample 2 different nodes in node list
+nodes[tocoalesce[1]] # print the first node sampled
+nodes[tocoalesce[2]] # print the second node sampled
 ```
 
-### Q2
+If	you	used	R	then	make	sure	you	understand	what	the	R	code	does	before	moving	on.
 
-Repeat exercise **Q1** but with N=3 and N=10. Do alleles tend to "fix" faster when N is large or when N is small?
-
-
-## 2 - Thinking forwards in time: many alleles
-
-We can also run a Wright-Fisher model with more than two alleles. The function below begins with a population in which each individual contains two distinct alleles, which are different from all other alleles in the population.
+4. Sample	the	time	it	takes	before	these	two	nodes	coalesce	(measured	from	previous	
+coalescence	event in	units	of	2N)	by	sampling	from	an	exponential	distribution	with	rate	equal	
+to	nodecount*(nodecount-1)/2	where	nodecount	is	the	number	of	nodes	in	your node	list.	Do	
+this	in	R	by	typing:
 
 ```
-WF_manyalleles(5,15)
+coalescencerate = nodecount*(nodecount-1)/2 # calculate the coalescent rate
+coalescencetime = rexp(1, rate=coalescencerate) # sample from exponential w. that rate
+coalescencetime
 ```
 
-### Q3
+Make sure	you	understand	what	the	R	code	does	before	moving	on.
 
-What happens to the allelic diversity (number of alleles present) as time goes forward? Are there more or less heterozygotes at the end of the simulation than at the beginning?
+5. Now	draw	a	node	that	is	the	sampled amount	of	time	further	up	in	the	tree	than	the currently	
+highest node	(so	if	the	currently	highest	node	is	drawn	at	height	T	then	draw	the	new	one	at	
+height	T plus the	sampled	coalescence	time)	and	draw	a	branch	from	each	of	the	nodes	you	
+sampled	in	step	3	to	this	new	node	indicating	that	these	two	nodes	coalesce at	this	time.	
 
-### Q4
-
-Check what happens to allelic diversity over time, when N = 3 and when N = 10.
-
-## 3 - Thinking backwards in time
-
-So far, we've been running the Wright-Fisher model forwards in time. We began with a population of individuals with (possibly) distinct alleles and observed what happened as we approached the present. Now, we'll start in the present and go backwards in time. Specifically, we'll aim to trace the lineages of particular individuals that exist in the present and see how they "coalesce" (find a common ancestor) in the past.
-
-### Q5
-
-We will trace the genealogy of 3 lineages in a population of size N = 10 (2N = 20) over 20 generations:
+6. Next,	make	an	updated	list	of	the	nodes	that	are	left	by	removing	the two	nodes	that	
+coalesced	and	instead	adding	the	newly	drawn	node	that represents	their	common	ancestor.	
+You	can	call	the	new	node	the	next	number	not	used	as	a	name	yet	(e.g. if	this	is	the	first	
+coalescence event you	can	call	it	6, if	it	is	the	second	coalescence	event you	can	call	it	7	etc.).	
+You	can	either	do	this	by	hand	or	in	R.	If	you	want	to	do	it	R	you	can	do	it	as	follows:
 
 ```
-track_lineages(N.vec=rep(10,20), n.iter=1, num.tracked=3)
+nodes <- nodes[-tocoalesce] # remove the two nodes that coalesced
+nodes <- c(nodes,2*5-length(nodes)-1) # add the new node
+nodes # print the new list
 ```
 
-Repeat this simulation 10 times. For each simulation, record the time between the present and the first coalescent event, and the time between the first coalescent event and the second coalescent event (i.e. the most recent common ancestor of all 3 lineages). You can ignore simulations where lineages have not coalesced at generation 20. Which of the two times tends to be larger? Why do you think this is?
+If	you	used	R	then	make	sure	you	understand	what	the	R	code	does	before	moving	on.
 
-### Q6
+7. If	you	only	have	one	node	left	in	your	list	of	remaining	nodes	you	are	done.	If	not,	go	back	to	
+step	3.	
 
-Check what happens to the coalescence rate, when N = 7 and when N = 20. Do lineages coalesce faster or slower with larger population size?
+In	the	end you	should	have	a	tree,	which	is	a	simulation	of	a	coalescence	tree. Try	to	do	this	a	
+couple times	until	you	feel	like	you	know	how	it	is	done	and	understand	how the coalescence process works	(if after	drawing	a	few	trees still	don’t	understand,	then	feel	free	to	ask for	help!).
+
+## Exercise	B:	Exploring	the	basic	properties	of	a	standard	coalescence tree	
+
+Doing	this	by	hand	is	obviously a	bit	tedious.	So	based	on	the	R	code	snippets	you	already	got, we have built a function	that	allows	you	to	do	this	automatically	(it	even	makes	a	drawing	of	the	tree).	You	
+can	use	it from the course server	by	typing the	following	in	R:
+
+```
+R
+source("/home/fernando/simulatecoalescencetrees.R")
+```
+
+Once	you	have	done	this	you can	simulate	and	draw	trees just like	you	just	did	by hand by	typing the code below, which will print out ten trees on the screen:
+
+```
+par (mfrow=c(2,5))
+for (i in c(1:10)){
+         print("New Tree")
+         yourtree <-simtree(5) # simulate tree with 5 nodes
+         ct<-read.tree(text=yourtree);plot(ct,cex=1.5);add.scale.bar(y=1.2,x=0.2,cex = 2,col = "red",lcol="red",lwd=3)
+         print(" ")
+}
+
+```
+
+You should see several trees printed out in the screen. If this doesn't happen, try downloading the R script from this github website, and then running it locally in your machine (after you cd to the folder in which you downloaded the script).
+
+```
+R
+install.packages("ape")
+source("simulatecoalescencetrees.R")
+```
+
+Note that the code	also	prints	the	simulated	coalescence	times.	
+
+Based	on	the	results you	get answer	the	following	questions:
+
+1) Which	coalescence event takes	the	longest on	average (the	first coalescence event,	the	
+second,	…,	or	the	last)?	And	which	event	takes	the	shortest on	average?
+
+2) Is	that	what	you	would	expect? Recall that the	mean	of	an	exponential	distribution	with rate	lambda	is	1/lambda	
+and	the	coalescence rate	when	there	are	n nodes	left	is	n(n-1)/2.	So	the	mean	is	2/(n(n-1)),	so
+for	instance	for	when	there	are	5	nodes	left	the	mean	coalescent	time	is	2/(5(5-1))=0.1
+
+3) Which	coalescence event	time	seems to	vary	the	most?
+
+4) Is	that	what	you	would	expect? Recall that, if we have a random variable that follows an exponential distribution with rate lambda, then its variance is equal 1/(lambda^2).
+
+5) Finally,	imagine	the	following	case:	a	researcher	has	estimated	the	structure	of	a	tree	for	
+mtDNA	from	a	species	sampled	in	a	single	location.	She	obtains	a	tree	looking	as	follows:
+
+![alt text](https://github.com/FerRacimo/CopenhagenTutorial/blob/master/Tree0.png)
+
+Based	on	the	structure	of	the	tree,	i.e.	two	groups	of	related	individuals	separated	by	long	
+branches	down	to the	root	of	the	tree,	she	concludes	that	there	must	be population	
+subdivision	with	two	clearly	differentiated	groups.	 Based	on	what	you	have	learned	from	
+the	simulations,	do	you	agree	with	this	conclusion?
