@@ -135,4 +135,4 @@ for	instance	for	when	there	are	5	nodes	left	the	mean	coalescent	time	is	2/(5(5-
 
 <img src="Fig2.png" width="50%">
 
->**Fig 1.** coalescence tree simulation
+>**Fig 2.** Exponentail distributions depending on different rates
