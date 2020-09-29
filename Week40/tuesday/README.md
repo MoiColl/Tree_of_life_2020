@@ -12,21 +12,9 @@ Solutions to odd number exercises can be found at the end of the book and soluti
 
 ### 2. Assignment discussion
 
-We will try to comment the most common problems that I could find in the assingments and you will be able to ask questions that you might still have.
+We will comment the most common problems that I could find in the assignments and you will be able to ask questions that you might still have.
 
-In case you are wandering about the homomtDNA dataset questions, here you have some papers that will give you the answer to those:
-
-1. [Paper](https://www.nature.com/articles/nature12788) published in 2014 describing the sequencing and analysis of the mtDNA from a speciment found in Sima de los Huesos
-
-2. [Paper](https://www.nature.com/articles/nature12788) published in 2016 describing the sequencing and analysis of the nuclear DNA from the same speciment found in Sima de los Huesos and comparison to the mtDNA results
-
-3. [Journal article](https://www.theguardian.com/science/2017/jul/18/did-human-women-contribute-to-neanderthal-genomes-over-200000-years-ago) that talks about the finding
-
-4. [Paper](https://science.sciencemag.org/content/369/6511/1653/tab-pdf) published last week (25 Sep 2020) describing the sequencing and analysis of the Y chromosome from late Neanderthals which have followed similar evolutionary patterns than the Neanderthal mtDNA.
-
-5. [Perspective](https://science.sciencemag.org/content/369/6511/1565) about the Neanderthal Y chromosome paper by Mikkel Heide Schierup.
-
-6. R code for the distance model plot:
+1. R code for the distance model plot:
 
 ```
 library(tidyverse)
@@ -47,3 +35,20 @@ data.frame(p = seq(0.01, 0.5, 0.01)) %>%
 <img src="Fig1.png" width="50%">
 
 >**Fig 1.** Substitution model comparison (p-distance, JC and K2)
+
+
+2. In case you are wondering about the homomtDNA dataset questions, here you have some papers that will give you the answer to those:
+
+2.1. [Paper](https://www.nature.com/articles/nature12788) published in 2014 describing the sequencing and analysis of the mtDNA from a specimen found in Sima de los Huesos
+
+2.2. [Paper](https://www.nature.com/articles/nature12788) published in 2016 describing the sequencing and analysis of the nuclear DNA from the same specimen found in Sima de los Huesos and comparison to the mtDNA results
+
+2.3. [Journal article](https://www.theguardian.com/science/2017/jul/18/did-human-women-contribute-to-neanderthal-genomes-over-200000-years-ago) that talks about the finding
+
+2.4. [Paper](https://science.sciencemag.org/content/369/6511/1653/tab-pdf) published last week (25 Sep 2020) describing the sequencing and analysis of the Y chromosome from late Neanderthals which have followed similar evolutionary patterns than the Neanderthal mtDNA.
+
+2.5. [Perspective](https://science.sciencemag.org/content/369/6511/1565) about the Neanderthal Y chromosome paper by Mikkel Heide Schierup.
+
+
+
+
