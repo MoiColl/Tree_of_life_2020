@@ -8,7 +8,7 @@ During this TA you will have time to answer the Nielsen and Slatkin book exercis
 
 Because the exercises can't be publicly distributed, you will find two links in this week's directory under the "Materials" section in Black Board, one for the exercises and the other for the google docs.
 
-Solutions to odd number exercises can be found at the end of the book and solutions to even numbers can be found [here](#http://people.bu.edu/msoren/BI515_2014/EvenNumberedSolutions.pdf)
+Solutions to odd number exercises can be found at the end of the book and solutions to even numbers can be found [here](http://people.bu.edu/msoren/BI515_2014/EvenNumberedSolutions.pdf)
 
 ### 2. Assignment discussion
 
