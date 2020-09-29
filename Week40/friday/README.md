@@ -10,5 +10,7 @@ This Friday we will experiment with ...
 -----------------------------------------------------------------
 
 
+<img src="coal.gif" width="50%">
 
+>**Fig 1.** Substitution model comparison (p-distance, JC and K2)
 
