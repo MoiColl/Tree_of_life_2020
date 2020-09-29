@@ -86,50 +86,37 @@ Then, you can run the following commands a bunch of times to see what happens:
 coalsim <- sim_coal_moi()
 plot_coal(coalsim[[1]], coalsim[[2]])
 ```
-
-## 2 - Exploring	the	basic	properties	of	a	standard	coalescence tree	
-
-Doing	this	by	hand	is	obviously a	bit	tedious.	So	based	on	the	R	code	snippets	you	already	got, we have built a function	that	allows	you	to	do	this	automatically	(it	even	makes	a	drawing	of	the	tree).	You	
-can	use	it from the course server	by	typing the	following	in	R:
+Run it several times (10-15) and note down the time to the first and coalescence event (not the total coalescence time). You can have a vector in R for the first coalescence event and another one for the last. For example:
 
 ```
-R
-source("/home/fernando/simulatecoalescencetrees.R")
+first <- c(0.142387438557091, 0.195287438557091)
+last  <- c(0.296367282979198, 1.760553551753784)
 ```
 
-Once	you	have	done	this	you can	simulate	and	draw	trees just like	you	just	did	by hand by	typing the code below, which will print out ten trees on the screen:
-
-```
-par (mfrow=c(2,5))
-for (i in c(1:10)){
-         print("New Tree")
-         yourtree <-simtree(5) # simulate tree with 5 nodes
-         ct<-read.tree(text=yourtree);plot(ct,cex=1.5);add.scale.bar(y=1.2,x=0.2,cex = 2,col = "red",lcol="red",lwd=3)
-         print(" ")
-}
-
-```
-
-You should see several trees printed out in the screen. If this doesn't happen, try downloading the R script from this github website, and then running it locally in your machine (after you cd to the folder in which you downloaded the script).
-
-```
-R
-install.packages("ape")
-source("simulatecoalescencetrees.R")
-```
-
-Note that the code	also	prints	the	simulated	coalescence	times.	
-
-Based	on	the	results you	get answer	the	following	questions:
+Based	on	the	results you	get, answer	the	following	questions.
 
 1) Which	coalescence event takes	the	longest on	average (the	first coalescence event,	the	
-second,	…,	or	the	last)?	And	which	event	takes	the	shortest on	average?
+second,	…,	or	the	last)? 
+
+You can compute that by doing:
+
+```
+mean(first)
+mean(last)
+```
 
 2) Is	that	what	you	would	expect? Recall that the	mean	of	an	exponential	distribution	with rate	lambda	is	1/lambda	
 and	the	coalescence rate	when	there	are	n nodes	left	is	n(n-1)/2.	So	the	mean	is	2/(n(n-1)),	so
 for	instance	for	when	there	are	5	nodes	left	the	mean	coalescent	time	is	2/(5(5-1))=0.1. For this question and the rest, look at Figure 2 to get a sence of the mean and the variance of the exponential distributions.
 
-3) Which	coalescence event	time	seems to	vary	the	most?
+3) Which	coalescence event	time	seems to	vary	the	most? 
+
+You can use R again:
+
+```
+var(first)
+var(last)
+```
 
 4) Is	that	what	you	would	expect? Recall that, if we have a random variable that follows an exponential distribution with rate lambda, then its variance is equal 1/(lambda^2).
 
