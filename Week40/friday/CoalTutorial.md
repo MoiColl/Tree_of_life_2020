@@ -76,6 +76,12 @@ couple times	until	you	feel	like	you	know	how	it	is	done	and	understand	how the 
 
 To speed up the process, I wrote an R funtion which is going to tell you the nodes that coalesce, the time it took, and the total coalescence time. Furthermore, it is going to produce a plot like the one you have in the gif above. You can try to run the function by downloading 
 
+```
+source()
+dfs <- sim_coal_moi()
+plot_coal(dfs[[1]], dfs[[2]])
+```
+
 ## Exercise	B:	Exploring	the	basic	properties	of	a	standard	coalescence tree	
 
 Doing	this	by	hand	is	obviously a	bit	tedious.	So	based	on	the	R	code	snippets	you	already	got, we have built a function	that	allows	you	to	do	this	automatically	(it	even	makes	a	drawing	of	the	tree).	You	
