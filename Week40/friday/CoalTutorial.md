@@ -5,7 +5,7 @@ Exercises in coalescent theory
 
 Based on notes by Ida Moltke.
 
-## Exercise	A:	Simulating	a	coalescence	tree	assuming	a	constant	population	size
+## 1 - Simulating	a	coalescence	tree	assuming	a	constant	population	size
 
 The	purpose	of	this first	exercise	is	to	make	sure	it	is	clear	how	a	coalescence tree	is	simulated. We will use R so a little familiarity with this language will help. First, let	us try to	simulate	a	coalescence tree	for	five gene	copies by	hand:
 
