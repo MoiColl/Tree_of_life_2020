@@ -8,7 +8,7 @@ During this TA you will have time to answer the Nielsen and Slatkin book exercis
 
 Because the exercises can't be publicly distributed, you will find two links in this week's directory under the "Materials" section in Black Board, one for the exercises and the other for the google docs.
 
-Solutions to odd number exercises can be found at the end of the book and solutions to even numbers can be found [here](http://people.bu.edu/msoren/BI515_2014/EvenNumberedSolutions.pdf)
+Solutions to odd number exercises can be found at the end of the book and solutions to even numbers can be found [here](http://people.bu.edu/msoren/BI515_2014/EvenNumberedSolutions.pdf).
 
 ### 2. Assignment discussion
 
@@ -16,9 +16,13 @@ We will try to comment the most common problems that I could find in the assingm
 
 In case you are wandering about the homomtDNA dataset questions, here you have some papers that will give you the answer to those:
 
-1. [Paper](https://www.nature.com/articles/nature12788) describing the sequencing and analysis of the mtDNA from a speciment found in Sima de los Huesos
+1. [Paper](https://www.nature.com/articles/nature12788) published in 2014 describing the sequencing and analysis of the mtDNA from a speciment found in Sima de los Huesos
 
-2. [Paper](https://www.nature.com/articles/nature12788) describing the sequencing and analysis of the nuclear DNA from the same speciment found in Sima de los Huesos and comparison to the mtDNA results
+2. [Paper](https://www.nature.com/articles/nature12788) published in 2016 describing the sequencing and analysis of the nuclear DNA from the same speciment found in Sima de los Huesos and comparison to the mtDNA results
 
 3. [Journal article](https://www.theguardian.com/science/2017/jul/18/did-human-women-contribute-to-neanderthal-genomes-over-200000-years-ago) that talks about the finding
+
+4. [Paper](https://science.sciencemag.org/content/369/6511/1653/tab-pdf) published last week (25 Sep 2020) describing the sequencing and analysis of the Y chromosome from late Neanderthals which have followed similar evolutionary patterns than the Neanderthal mtDNA.
+
+5. [Perspective](https://science.sciencemag.org/content/369/6511/1565) about the Neanderthal Y chromosome paper by Mikkel Heide Schierup.
 
