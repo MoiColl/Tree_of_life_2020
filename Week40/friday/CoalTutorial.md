@@ -9,7 +9,9 @@ Based on notes by Ida Moltke.
 
 The	purpose	of	this first	exercise	is	to	make	sure	it	is	clear	how	a	coalescence tree	is	simulated. We will use R as a calculator so a little familiarity with this language will help. In this exercise you will simulate coalescence (using R) but drawing the tree on a piece of paper. You will have to do a step by step process, similar as what is shown in the gif below:
 
+<img src="coal.gif" width="50%">
 
+>**Fig 1.** coalescence tree simulation
 
 1. Start	by	drawing	on a piece of paper a	small circle	for	each	of	the	five	gene	copies. They should be lined up on	an	invisible horizontal line	and you should leave enough	space	above the circles for	
 drawing	a	tree	above them (which we will do shortly).	We will henceforth call these five circles "nodes" and label them 1,2,3,4,5
@@ -71,6 +73,8 @@ step	3.
 
 In	the	end you	should	have	a	tree,	which	is	a	simulation	of	a	coalescence	tree. Try	to	do	this	a	
 couple times	until	you	feel	like	you	know	how	it	is	done	and	understand	how the coalescence process works	(if after	drawing	a	few	trees still	don’t	understand,	then	feel	free	to	ask for	help!).
+
+To speed up the process, I wrote an R funtion which is going to tell you the nodes that coalesce, the time it took, and the total coalescence time. Furthermore, it is going to produce a plot like the one you have in the gif above. You can try to run the function by downloading 
 
 ## Exercise	B:	Exploring	the	basic	properties	of	a	standard	coalescence tree	
 
