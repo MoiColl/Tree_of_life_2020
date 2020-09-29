@@ -44,6 +44,6 @@ data.frame(p = seq(0.01, 0.5, 0.01)) %>%
   geom_line(aes(x = p, y = dist, group = model, color = model))
 ```
 
-<img src="Fig1.png" width="100%">
+<img src="Fig1.png" width="50%">
 
 >**Fig 1.** Substitution model comparison (p-distance, JC and K2)
