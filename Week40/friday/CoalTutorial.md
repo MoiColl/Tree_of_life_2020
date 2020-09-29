@@ -7,7 +7,9 @@ Based on notes by Ida Moltke.
 
 ## 1 - Simulating	a	coalescence	tree	assuming	a	constant	population	size
 
-The	purpose	of	this first	exercise	is	to	make	sure	it	is	clear	how	a	coalescence tree	is	simulated. We will use R so a little familiarity with this language will help. First, let	us try to	simulate	a	coalescence tree	for	five gene	copies by	hand:
+The	purpose	of	this first	exercise	is	to	make	sure	it	is	clear	how	a	coalescence tree	is	simulated. We will use R as a calculator so a little familiarity with this language will help. In this exercise you will simulate coalescence (using R) but drawing the tree on a piece of paper. You will have to do a step by step process, similar as what is shown in the gif below:
+
+
 
 1. Start	by	drawing	on a piece of paper a	small circle	for	each	of	the	five	gene	copies. They should be lined up on	an	invisible horizontal line	and you should leave enough	space	above the circles for	
 drawing	a	tree	above them (which we will do shortly).	We will henceforth call these five circles "nodes" and label them 1,2,3,4,5
