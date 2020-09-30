@@ -73,7 +73,8 @@ I created an R function as example from which I got Figure 1. You can run it if 
 
 ```
 library(tidyverse)
-gf <- genetic_drift(N = 1000, f_0 = 1/2, G = 1000, R = 50)
+source("/Users/au552345/Documents/Tree_of_life_2020/Week40/friday/geneticdrift_moi.R")
+gf <- genetic_drift(N = 2*500, f_0 = 1/2, G = 1000, R = 50)
 plot_genetic_drift(gf)
 ```
 
@@ -99,7 +100,23 @@ HINT: you can do that with `rbinom()` or `sample()` functions
 
 Take into consideration that the higher `G` or `R` are, the slower the script is going to be. If you want to increase them, go step by step or reduce the other parameters. Maybe start by `N = 250`, `G = 100` or `R = 50`.
 
-What happens when you change `f_0`, `N`, `G`? 
+Run some simulations and ask yourself questions like the ones you answered before or...
+
+What happens when you change `f_0`, `N`, `G` to the number of fixed/lost alleles? What about the mean time to fixation/lose? Do alleles get fixed or lost earier with higher `N`? What about the variance to the final frequency? Are all those results symetrical for inverse values of `f_0` (i.e., `f_0` = 0.1 or `f_0` = 0.9)? 
+
+If you want some help answering those, you can use the following function from [geneticdrift_moi.R](geneticdrift_moi.R).
+
+```
+gf_stats(gf)
+```
+
+which will print:
+
+1. Mean frequence and variance frequence of all replicates at the last generation recorded
+2. Counts of fixed, intermediate and lost alleles
+3. Mean and variance on the generations to allele fixation
+4. Mean and variance of generations to allele loss
+5. Histogram of allele frequency
 
 ## 3 - Thinking backwards in time
 
