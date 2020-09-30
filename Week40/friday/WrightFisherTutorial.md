@@ -73,7 +73,7 @@ I created an R function as example from which I got Figure 1. You can run it if 
 
 ```
 library(tidyverse)
-gf <- genetic_drift(N = 2500, fre = 1/2, gen = 1000, rep = 50)
+gf <- genetic_drift(N = 1000, f_0 = 1/2, G = 1000, R = 50)
 plot_genetic_drift(gf)
 ```
 
