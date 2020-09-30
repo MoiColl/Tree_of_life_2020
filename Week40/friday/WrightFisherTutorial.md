@@ -62,7 +62,7 @@ Once you have finished all the exercises (including the coalescence exercises) a
 
 This function will:
 
-1. Compute the frequency `f` of a bialelic allele in generation $g$ (`f_g`) in a population of size `N` given `f_{g-1}`
+1. Compute the frequency `f` of a bialelic allele in generation `g (`f_g`) in a population of size `N` given `f_{g-1}`
 2. Compute `f_g` for `G` generations, starting with a frequency value of `f_0` (up to this point, it is similar to what you've done in **Q1**)
 2. Replicate the experiment `R` times
 3. Plot the results of the `f_g` trajectories in all `r`
