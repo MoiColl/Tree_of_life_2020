@@ -2,9 +2,11 @@
 
 ## Work plan
 
+The TA session is going to be streamed through zoom. The link is going to be posted in this week Material directory in Black Board 10-5 min before the TA starts. 
+
 ### 1. Wright-Fisher model simulations and Coalescence simulations
 
-We are going to start by revising some of the concepts you learned during lectures. You should start with the [Wright Fisher exercise](WrightFisherTutorial.md) and then, jump to the [coalescence exercise](CoalTutorial.md). These exercises are run in R.
+We are going to revise some of the concepts you learned during lectures from a more practical perspective: the Wright Fished model and the basics of Coalescence theory. You should start with the [Wright Fisher exercise](WrightFisherTutorial.md) and then, jump to the [coalescence exercise](CoalTutorial.md). These exercises are run in R.
 
 ### 2. Nielsen and Slatkin book exercises - Chapter 1, 2, 3
 
