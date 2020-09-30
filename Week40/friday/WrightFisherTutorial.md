@@ -67,7 +67,7 @@ This function will:
 2. Replicate the experiment `R` times
 3. Plot the results of the `f_g` trajectories in all `r`
 
-you should end up with a plot similar to Figure 1. This way, you are going to experiment whith higher flexibility how the different variables (`f_0`, `N`, `G`) affect the mean and variance of the ultimate $f_G$. 
+you should end up with a plot similar to Figure 1. This way, you are going to experiment whith higher flexibility how the different variables (`f_0`, `N`, `G`) affect the mean and variance of the ultimate `f_G. 
 
 I created an R function as example from which I got Figure 1. You can run it if you download the [geneticdrift_moi.R](geneticdrift_moi.R) file and you run  the following commands (skip if you want to try to build your own script):
 
