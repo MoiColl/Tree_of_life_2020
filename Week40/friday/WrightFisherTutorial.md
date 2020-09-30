@@ -60,7 +60,7 @@ Check what happens to allelic diversity over time, when N = 3 and when N = 10.
 
 Once you have finished all the exercises (including the coalescence exercises) and you still have steam and motivation, you can try to create your own  genetic drift simulation function. This function will:
 
-1. Compute the frequency $f$ of a bialelic allele in generation $g$ ($f_g$) in a population of size $N$ given $f_g-1$
+1. Compute the frequency $ f $ of a bialelic allele in generation $g$ ($f_g$) in a population of size $N$ given $f_g-1$
 2. Compute $f_g$ for $G$ generations, starting with a frequency value of $f_0$
 2. Repeat the experiment $R$ times
 3. Plot the results of the $f_g$ trajectories in all $r$
