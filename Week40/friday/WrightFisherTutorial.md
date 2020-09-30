@@ -77,7 +77,7 @@ gf <- genetic_drift(N = 1000, f_0 = 1/2, G = 1000, R = 50)
 plot_genetic_drift(gf)
 ```
 
-<img src="Fig1.gif" width="50%">
+<img src="Fig1.png" width="50%">
 
 >**Fig 1.** Genetic drift simulation (N = 1000, f_0 = 1/2, G = 1000, R = 50)
 
