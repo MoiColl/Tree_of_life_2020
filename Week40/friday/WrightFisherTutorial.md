@@ -56,6 +56,22 @@ What happens to the allelic diversity (number of alleles present) as time goes f
 
 Check what happens to allelic diversity over time, when N = 3 and when N = 10.
 
+### Q5 (OPTIONAL)
+
+Once you have finished all the exercises (including the coalescence exercises) and you still have steam and motivation, you can try to create your own  genetic drift simulation function. This function will:
+
+1. Compute the frequency $f$ of a bialelic allele in generation $g$ ($f_g$) in a population of size $N$ given $f_g-1$
+2. Compute $f_g$ for $G$ generations, starting with a frequency value of $f_0$
+2. Repeat the experiment $R$ times
+3. Plot the results of the $f_g$ trajectories in all $r$
+
+you should end up with a plot similar to Figure 1.
+
+This way, you are going to experiment how the different variables ($f_0$, $N$, $G$) affect the mean and variance of the ultimate $f_G$. I created an R function as example ([geneticdrift_moi.R](geneticdrift_moi.R)), but you might want to try it yourself. Here are some gidelines in case you need some inspiration:
+
+1. Sample N number of alleles
+
+
 ## 3 - Thinking backwards in time
 
 So far, we've been running the Wright-Fisher model forwards in time. We began with a population of individuals with (possibly) distinct alleles and observed what happened as we approached the present. Now, we'll start in the present and go backwards in time. Specifically, we'll aim to trace the lineages of particular individuals that exist in the present and see how they "coalesce" (find a common ancestor) in the past.
@@ -73,3 +89,6 @@ Repeat this simulation 10 times. For each simulation, record the time between th
 ### Q6
 
 Check what happens to the coalescence rate, when N = 7 and when N = 20. Do lineages coalesce faster or slower with larger population size?
+
+
+
