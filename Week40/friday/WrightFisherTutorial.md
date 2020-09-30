@@ -77,6 +77,10 @@ gf <- genetic_drift(N = 1000, f_0 = 1/2, G = 1000, R = 50)
 plot_genetic_drift(gf)
 ```
 
+<img src="Fig1.gif" width="50%">
+
+>**Fig 1.** Genetic drift simulation (N = 1000, f_0 = 1/2, G = 1000, R = 50)
+
 Here are the steps I followed in case you need some inspiration to build your own function:
 
 1. Sample `N` number of alleles from a binomial distribution with probability `f_{g-1}` to sample allele 1 and `1-f_{g-1}` to sample allele 0.
