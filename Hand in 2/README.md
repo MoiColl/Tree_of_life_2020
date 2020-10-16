@@ -1,4 +1,4 @@
-# Hand in 1 - Phylogenetic tree analysis
+# Hand in 2 - ... (UNDER CONSTRUCTION)
 
 In this hand in you will analyse [5 datasets](handin1_dataset.zip) using the phylogenetic concepts and tools you have learned during the last sessions. You must write a report answering some questions for each dataset (below) including the trees you build. Make sure to include detailed information on how the tree was produced (substitution model, alignment method, number of bootstraps...) (Fig1). This report must be uploaded in Blackboard in **PDF** format before **Friday 25th of September at 11:59 am**. 
 
