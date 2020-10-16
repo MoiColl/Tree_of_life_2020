@@ -1,7 +1,3 @@
-# Tuesday Week40 (UNDER CONSTRUCTION)
+# Tuesday Week42
 
-## Work plan
-
-### 1.
-
-
+Autumn Holiday!
