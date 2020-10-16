@@ -25,9 +25,9 @@ First we consider two datasets that examine only divergence between two species:
 For that, go to MEGAX > DISTANCE > Substitutions Type (Syn-Nonsynonymous), Genetic Code Table (choose the most apropiate), Model/Method ()
 
 
-    S   |    N   |   Sd  |   Nd |   pS   |   pN   |   dN   |   dS 
---------|--------|-------|------|--------|--------|--------|-------
- 143.44 | 457.20 | 10.17 | 9.83 | 0.0709 | 0.0215 | 0.0218 | 0.0745
+|    S   |    N   |   Sd  |   Nd |   pS   |   pN   |   dN   |   dS   |
+|--------|--------|-------|------|--------|--------|--------|--------|
+| 143.44 | 457.20 | 10.17 | 9.83 | 0.0709 | 0.0215 | 0.0218 | 0.0745 |
 
 
 ##### 2. Can you explain the differences in the results you get above by examining the pattern of molecular evolution of Gstd and Nd5? 
