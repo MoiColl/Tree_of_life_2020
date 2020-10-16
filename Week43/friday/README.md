@@ -10,22 +10,25 @@ Learning goals of this computer session:
 + Choosing a method for estimating dN and dS adapted to your dataset. 
 + Testing for purifying selection versus selective neutrality and interpreting the tests results
 
-Before this session, to understand all the notation, read the section [4.2 Synonymous and Nonsynonymous Substitutions](https://www.megasoftware.net/mega1_manual/Distance.html) from MEGAX help and the section Rates of Substitution of Selected Alleles from Chapter 8 in Nielsen's and Slatkin's book, specially BOX 8.2 and 8.3.
+Before this session, to understand all the notation, read the section [4.2 Synonymous and Nonsynonymous Substitutions](https://www.megasoftware.net/mega1_manual/Distance.html) from MEGAX help and the section *Rates of Substitution of Selected Alleles* from Chapter 8 in Nielsen's and Slatkin's book, specially BOX 8.2 and 8.3.
+
+We are going to work with the following [datasets](data.zip):
+
+1. `gstdDroso.meg`: exonic nuclear region sequence of 600 bp from two sister Drosophila species, *D. simulans* and *D. melanogaster*. This gene is involved in the detoxification.
+
+2. `Nd5.meg`: mitochondrial gene sequences from human and chimpanzee. It's a subunit of the largest of the five complexes of the electron transport chain. 
+
+3. `HLA-3Seq.meg` : is a group of related proteins that are encoded by the major histocompatibility complex (MHC) gene complex in humans. The dataset has been downloaded from *Molecular Evolution and Phylogenetics* book (Nei and Kumar 2000).
 
 #### A. Examining patterns of substitution between a pair of sequences and using the large sample test
 
-First we consider two datasets that examine only divergence between two species: 
-
-1. `gstdDroso.meg`: exonic nuclear region sequence of 600 bp from two sister Drosophila species, *D. simulans* and *D. melanogaster*.
-2. `Nd5.meg`: mitochondrial gene sequences from human chimpanzee.
-
-
 ##### 1. Estimate the number of synonymous (S) and non-synonymous (N) sites, Sd, Nd, pS, pN, dS, dN, w (omega), dN/dS using two different methods (Nei & Gojobori and Modified Nei & Gojobori) for each gene. Discuss the difference you observe in the estimates and how sensitive these are to the choice of methods.
 
-To get all this statistics you have to:
+To get all this statistics, on MEGAX, you have to:
 
-1. click on `DISTANCE` and click on `Compute Overall Mean Distance...`
-2. Change:
+1. Load the data
+2. Click on `DISTANCE` and click on `Compute Overall Mean Distance...`
+3. Change:
     - `Substitutions Type` to `Syn-Nonsynonymous` option
     - `Genetic Code Table` to the most apropiate option
     - `Model\Method` you can choose `Nei-Gojobori method` or `Modified Nei-Gojobori method` depending the method you want to check. Be aware that when you choose `Modified Nei-Gojobori method` you are aked to input a Transition/Transversion (R) value; you must check for that using MEGAX. Then, once you have selected the method, you have 3 aditional options for each:
@@ -34,8 +37,7 @@ To get all this statistics you have to:
         + `Jukes-Cantor` to get dN, dS
     - `Substitutions to Include` to either `Synonymous only` (Sd, pS, dS) or `Nonsynonymous only` (Nd, pN, dN) depending on what you want to compute
  
-
-You have to fill up a table like this:
+By repeating the steps above, you have to fill up a table like this:
 
 |      Data     |          Method         | R | S | N | Sd | Nd | pS | pN | dS | dN | w = dN/dS |
 |---------------|-------------------------|---|---|---|----|----|----|----|----|----|-----------|
@@ -48,21 +50,21 @@ You have to fill up a table like this:
 
 I recomend you team up with some people (5 more) and distribute each line to be computed. 
 
-##### 2. Are these genes apparently evolving neutrally or under purifying selection?
+##### 2. Are these genes apparently evolving neutrally? 
 
-Hint use the large sample test provided by Mega to test that hypothesis
+First, think about it from the previous table. Then, check it with a more formal test of selection following these steps:
 
-B. Patterns of substitution in the MHC molecule
+1. Click on `SELECTION` and click on `Codon-based Z-test of Selection`
+2. Select `Overall Average` on `Scope`
+3. Select the either Nei-Gojobori or the modified version on `Model/Method`
 
-Next we consider a dataset provided by Nei and Kumar on the MHC molecule (example dataset of MEGA “HLA-3Seq.meg" data file).
+Note the Z-value and the p-values extending the table you filled up before. 
 
-1. Use two different methods (Nei Gojobori, Modified Nei Gojobori) to examine patterns of substitution and discuss your finding: Is this gene apparently evolving neutrally/under purifying selection/ positive selection?
+##### What are the different alternative hypothesis you can choose from (different options under the `Test Hypothesis (HA: alternative)`)? Why are they different?
 
-2. Is the finding robust to the method used? Discuss how this pattern of evolution can be explained by the biological function of the MHC. 
+##### 3. Do you get different results depending on the method used? Why? which one do you think is more correct?
 
-Hint: Compare your results with those reported in Chapter 4.
+In [scan 1](scan1.png) and [scan 2](scan2.png) you can see the results obtained in the *Molecular Evolution and Phylogenetics* book (Nei and Kumar 2000). 
 
-##### 2. Can you explain the differences in the results you get above by examining the pattern of molecular evolution of Gstd and Nd5? 
-
-Hint: discuss what assumptions are underlying Nei & Gojobori versus modified Nei & Gojobori methods for estimating dN and dS.
+##### How do they compare to your results? If you get different results, why do you think that happens? 
 
