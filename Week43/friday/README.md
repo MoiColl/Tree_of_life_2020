@@ -20,9 +20,9 @@ First we consider two datasets that examine only divergence between two species:
 2. `Nd5.meg`: mitochondrial gene sequences from human chimpanzee.
 
 
-##### 1. Estimate the number of synonymous (S) and non-synonymous (N) sites, Sd, Nd, pN, pS, dN, dS, w (omega), dN/dS using two different methods (Nei & Gojobori, Modified Nei & Gojobori) for each gene (making a table is helpful). Discuss the difference you observe in the estimates and how sensitive these are to the choice of methods.
+##### 1. Estimate the number of synonymous (S) and non-synonymous (N) sites, Sd, Nd, pS, pN, dS, dN, w (omega), dN/dS using two different methods (Nei & Gojobori and Modified Nei & Gojobori) for each gene. Discuss the difference you observe in the estimates and how sensitive these are to the choice of methods.
 
-To get all this quantities:
+To get all this statistics you have to:
 
 1. click on `DISTANCE`
 2. Change:
@@ -35,7 +35,12 @@ To get all this quantities:
     - `Substitutions to Include` to either `Synonymous only` (Sd, pS, dS) or `Nonsynonymous only` (Nd, pN, dN) depending on what you want to compute
  
 
+You have to fill up a table like this:
 
+|                         | S | N | Sd | Nd | pS | pN | dS | dN | w | dN/dS |
+|-------------------------|---|---|----|----|----|----|----|----|---|-------|
+| Nei & Gojobori          |   |   |    |    |    |    |    |    |   |       |
+| Modified Nei & Gojobori |   |   |    |    |    |    |    |    |   |       |
 
 ##### 2. Can you explain the differences in the results you get above by examining the pattern of molecular evolution of Gstd and Nd5? 
 
