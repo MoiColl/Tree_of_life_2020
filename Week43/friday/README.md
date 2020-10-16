@@ -28,11 +28,10 @@ To get all this quantities:
 2. Change:
     - `Substitutions Type` to `Syn-Nonsynonymous` option
     - `Genetic Code Table` to the most apropiate option
-    - `Model\Method` :
-        You can choose `Nei-Gojobori method` or `Modified Nei-Gojobori method` depending the method you want to check. Then you have 3 options for each method:
-            + `No. differences` to get Sd and Nd
-            + `Proportion` to get pS, pN
-            + `Jukes-Cantor` to get dN, dS
+    - `Model\Method` : You can choose `Nei-Gojobori method` or `Modified Nei-Gojobori method` depending the method you want to check. Then you have 3 options for each method.
+        + `No. differences` to get Sd and Nd
+        + `Proportion` to get pS, pN
+        + `Jukes-Cantor` to get dN, dS
     - `Substitutions to Include` to either `Synonymous only` (Sd, pS, dS) or `Nonsynonymous only` (Nd, pN, dN) depending on what you want to compute
  
 
