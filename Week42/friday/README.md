@@ -1,7 +1,5 @@
-# Friday Week40 (UNDER CONSTRUCTION)
+# Friday Week42
 
-## Work plan
-
-### 1.
+Autumn Holiday!
 
 
