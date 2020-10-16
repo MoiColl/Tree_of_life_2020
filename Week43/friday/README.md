@@ -18,11 +18,15 @@ First we consider two datasets that examine only divergence between two species:
 2. `Nd5.meg`: mitochondrial gene sequences from human chimpanzee.
 
 
+##### 1. Estimate the number of synonymous and non synonymous changes Sd, Nd, pN, pS, dN, dS, dN/dS using two different methods (Nei & Gojobori, Modified Nei & Gojobori) for each gene. Discuss the difference you observe in the estimates and how sensitive these are to the choice of methods.
 
-1. Estimate the number of synonymous and non synonymous changes Sd, Nd, pN, pS, dN, dS, dN/dS using two different methods (Nei & Gojobori, Modified Nei & Gojobori) for each gene. Discuss the difference you observe in the estimates and how sensitive these are to the choice of methods. 
-2. Can you explain the differences in the results you get above by examining the pattern of molecular evolution of Gstd and Nd5? 
+
+##### 2. Can you explain the differences in the results you get above by examining the pattern of molecular evolution of Gstd and Nd5? 
+
 Hint: discuss what assumptions are underlying Nei &  Gojobori versus modified Nei & Gojobori methods for estimating dN and dS.
-3. Are these genes apparently evolving neutrally or under purifying selection? 
+
+##### 3. Are these genes apparently evolving neutrally or under purifying selection?
+
 Hint use the large sample test provided by Mega to test that hypothesis
 
 B. Patterns of substitution in the MHC molecule
