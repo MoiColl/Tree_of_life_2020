@@ -22,12 +22,20 @@ First we consider two datasets that examine only divergence between two species:
 
 ##### 1. Estimate the number of synonymous (S) and non-synonymous (N) sites, Sd, Nd, pN, pS, dN, dS, w (omega), dN/dS using two different methods (Nei & Gojobori, Modified Nei & Gojobori) for each gene (making a table is helpful). Discuss the difference you observe in the estimates and how sensitive these are to the choice of methods.
 
-For that, go to MEGAX > DISTANCE > Substitutions Type (Syn-Nonsynonymous), Genetic Code Table (choose the most apropiate), Model/Method ()
+To get all this quantities:
 
+1. click on `DISTANCE`
+2. Change:
+    - `Substitutions Type` to `Syn-Nonsynonymous` option
+    - `Genetic Code Table` to the most apropiate option
+    - `Model\Method` :
+        You can choose `Nei-Gojobori method` or `Modified Nei-Gojobori method` depending the method you want to check. Then you have 3 options for each method:
+            + `No. differences` to get Sd and Nd
+            + `Proportion` to get pS, pN
+            + `Jukes-Cantor` to get dN, dS
+    - `Substitutions to Include` to either `Synonymous only` (Sd, pS, dS) or `Nonsynonymous only` (Nd, pN, dN) depending on what you want to compute
+ 
 
-|    S   |    N   |   Sd  |   Nd |   pS   |   pN   |   dN   |   dS   |
-|--------|--------|-------|------|--------|--------|--------|--------|
-| 143.44 | 457.20 | 10.17 | 9.83 | 0.0709 | 0.0215 | 0.0218 | 0.0745 |
 
 
 ##### 2. Can you explain the differences in the results you get above by examining the pattern of molecular evolution of Gstd and Nd5? 
