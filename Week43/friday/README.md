@@ -1,4 +1,4 @@
-# Friday Week43 (UNDER CONSTRUCTION)
+# Friday Week43
 
 ## Work plan 
 
