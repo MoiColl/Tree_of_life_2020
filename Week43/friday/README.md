@@ -10,6 +10,8 @@ Learning goals of this computer session:
 + Choosing a method for estimating dN and dS adapted to your dataset. 
 + Testing for purifying selection versus selective neutrality and interpreting the tests results
 
+Before this session, to understand all the notation, read the section [4.2 Synonymous and Nonsynonymous Substitutions](https://www.megasoftware.net/mega1_manual/Distance.html).
+
 #### A. Examining patterns of substitution between a pair of sequences and using the large sample test
 
 First we consider two datasets that examine only divergence between two species: 
@@ -18,7 +20,14 @@ First we consider two datasets that examine only divergence between two species:
 2. `Nd5.meg`: mitochondrial gene sequences from human chimpanzee.
 
 
-##### 1. Estimate the number of synonymous and non synonymous changes Sd, Nd, pN, pS, dN, dS, dN/dS using two different methods (Nei & Gojobori, Modified Nei & Gojobori) for each gene. Discuss the difference you observe in the estimates and how sensitive these are to the choice of methods.
+##### 1. Estimate the number of synonymous (S) and non-synonymous (N) sites, Sd, Nd, pN, pS, dN, dS, w (omega), dN/dS using two different methods (Nei & Gojobori, Modified Nei & Gojobori) for each gene (making a table is helpful). Discuss the difference you observe in the estimates and how sensitive these are to the choice of methods.
+
+For that, go to MEGAX > DISTANCE > Substitutions Type (Syn-Nonsynonymous), Genetic Code Table (choose the most apropiate), Model/Method ()
+
+
+    S   |    N   |   Sd  |   Nd |   pS   |   pN   |   dN   |   dS 
+--------|--------|-------|------|--------|--------|--------|-------
+ 143.44 | 457.20 | 10.17 | 9.83 | 0.0709 | 0.0215 | 0.0218 | 0.0745
 
 
 ##### 2. Can you explain the differences in the results you get above by examining the pattern of molecular evolution of Gstd and Nd5? 
