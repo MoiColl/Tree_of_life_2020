@@ -64,7 +64,7 @@ Note the Z-value and the p-values extending the table you filled up before.
 
 ##### 3. Do you get different results depending on the method used? Why? which one do you think is more correct?
 
-In [scan 1](scan1.pdf) and [scan 2](scan2.pdf) you can see the results obtained in the *Molecular Evolution and Phylogenetics* book (Nei and Kumar 2000). 
+In the section *Adaptive evolution* in [scan 1](scan1.pdf) and [scan 2](scan2.pdf) you can see the results obtained in the *Molecular Evolution and Phylogenetics* book (Nei and Kumar 2000). 
 
 ##### How do they compare to your results? If you get different results, why do you think that happens? 
 
