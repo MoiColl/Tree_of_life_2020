@@ -12,7 +12,7 @@ Learning goals of this computer session:
 
 Before this session, to understand all the notation, read the section [4.2 Synonymous and Nonsynonymous Substitutions](https://www.megasoftware.net/mega1_manual/Distance.html) from MEGAX help and the section *Rates of Substitution of Selected Alleles* from Chapter 8 in Nielsen's and Slatkin's book, specially BOX 8.2 and 8.3.
 
-We are going to work with the following [datasets](data.zip):
+We are going to work with the following [data sets](data.zip):
 
 1. `gstdDroso.meg`: exonic nuclear region sequence of 600 bp from two sister Drosophila species, *D. simulans* and *D. melanogaster*. This gene is involved in the detoxification.
 
@@ -64,7 +64,7 @@ Note the Z-value and the p-values extending the table you filled up before.
 
 ##### 3. Do you get different results depending on the method used? Why? which one do you think is more correct?
 
-In [scan 1](scan1.png) and [scan 2](scan2.png) you can see the results obtained in the *Molecular Evolution and Phylogenetics* book (Nei and Kumar 2000). 
+In [scan 1](scan1.pdf) and [scan 2](scan2.pdf) you can see the results obtained in the *Molecular Evolution and Phylogenetics* book (Nei and Kumar 2000). 
 
 ##### How do they compare to your results? If you get different results, why do you think that happens? 
 
