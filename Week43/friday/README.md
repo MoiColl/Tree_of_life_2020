@@ -10,7 +10,7 @@ Learning goals of this computer session:
 + Choosing a method for estimating dN and dS adapted to your dataset. 
 + Testing for purifying selection versus selective neutrality and interpreting the tests results
 
-Before this session, to understand all the notation, read the section [4.2 Synonymous and Nonsynonymous Substitutions](https://www.megasoftware.net/mega1_manual/Distance.html).
+Before this session, to understand all the notation, read the section [4.2 Synonymous and Nonsynonymous Substitutions](https://www.megasoftware.net/mega1_manual/Distance.html) from MEGAX help and the section Rates of Substitution of Selected Alleles from Chapter 8 in Nielsen's and Slatkin's book, specially BOX 8.2 and 8.3.
 
 #### A. Examining patterns of substitution between a pair of sequences and using the large sample test
 
@@ -37,10 +37,13 @@ To get all this statistics you have to:
 
 You have to fill up a table like this:
 
-|                         | S | N | Sd | Nd | pS | pN | dS | dN | w | dN/dS |
-|-------------------------|---|---|----|----|----|----|----|----|---|-------|
-| Nei & Gojobori          |   |   |    |    |    |    |    |    |   |       |
-| Modified Nei & Gojobori |   |   |    |    |    |    |    |    |   |       |
+|      Data     |          Method         | S | N | Sd | Nd | pS | pN | dS | dN | w | dN/dS |
+|---------------|-------------------------|---|---|----|----|----|----|----|----|---|-------|
+| gstdDroso.meg | Nei & Gojobori          |   |   |    |    |    |    |    |    |   |       |
+|               | Modified Nei & Gojobori |   |   |    |    |    |    |    |    |   |       |
+|---------------|-------------------------|---|---|----|----|----|----|----|----|---|-------|
+| Nd5.meg       | Nei & Gojobori          |   |   |    |    |    |    |    |    |   |       |
+|               | Modified Nei & Gojobori |   |   |    |    |    |    |    |    |   |       |
 
 ##### 2. Can you explain the differences in the results you get above by examining the pattern of molecular evolution of Gstd and Nd5? 
 
