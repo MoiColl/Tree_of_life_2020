@@ -1,77 +1,50 @@
-# Hand in 2 - ... (UNDER CONSTRUCTION)
+# Hand in 2 - Selection using dN/dS
 
-In this hand in you will analyse [5 datasets](handin1_dataset.zip) using the phylogenetic concepts and tools you have learned during the last sessions. You must write a report answering some questions for each dataset (below) including the trees you build. Make sure to include detailed information on how the tree was produced (substitution model, alignment method, number of bootstraps...) (Fig1). This report must be uploaded in Blackboard in **PDF** format before **Friday 25th of September at 11:59 am**. 
+In this hand in you will analyse the [NORK](nork.meg.zip) data set for selection using the phylogenetic concepts and tools you have learned during the last session. Furthermore, you will answer the exercises of Nielsen and Slatkin Book, Chapter 9. You must write a report answering some questions for the NORK data analysis (below) and the answers for the exercises with a proper explanation (if you type just the numerical answer for example, the exercise will be wrong). Make sure to include detailed information on how the analysis was performed (for example, which substitution model was used, number of bootstraps...). This report must be uploaded on Blackboard in **PDF** format before **Wednesday 28th of October at 11:59 pm**. You are welcomed to work in group, but you must write your own report.
+
+### 1. Molecular phylogenetics of the Medicago genus and patterns of molecular evolution of the NORK protein
+
+#### Background for the study
+
+Legumes have the ability to form symbiotic associations with soil bacteria (a polyphyletic group of bacteria called rhizobia) and thereby use atmospheric N2 as a source of nitrogen. Here we focus on the phylogeny of the plant genus Medicago and on a particular gene in the bacterial symbiotic recognition pathway; the NORK gene. The gene NORK (Nodulation Receptor Kinase) is required to recognize a complex sugar molecule synthesized by microbial rhizobia and start the symbiosis relationship. The C-terminal region of the extracellular contains three Leucine-Rich Repeats (LRRs) which are motifs involved in ligand binding.
+
+#### Data
+
+The alignment of a fragment of the NORK coding sequence (CDS) gene of 32 species of the Medicago genus and  6 other species within the Legumes family is provided in MEGA format ([nork.meg.zip](nork.meg.zip)).
+
+Additionaly, a phylogeny (Fig 1) of the genus Medicago (available as a newick tree file [bena.nwk.zip](bena.nwk.zip) that can be viewed in MEGA). This phylogeny is described fully in 
+Béna G et al, (Molecular phylogeny supports the morphologically based taxonomic transfer of the "medicagoid" Trigonella species into the genus Medicago L.)[https://link.springer.com/article/10.1007/s006060170012], Plant Syst Evol 2001, 229:217-236.
+
 
 <img src="Fig1.png" width="50%">
 
->**Fig 1.** Example of how to include a tree in your report.
-
-**NOTE:** if the sequences are already aligned, create the tree from the original file, don't unalign them and align them again. If you do so, indicate that in your report. 
-
-Short description of the [5 datasets](handin1_dataset.zip) which might be helpful to you when you will interpret some of your results:
-
-1. **primates**: Mitochondrial gene in 5 primates used in many examples in Nei and Kumar.
-
-2. **homomtDNA**: Aligned full mtDNA sequences from a homo sapiens, 2 denisovans and 3 Neanderthals. All samples are from the last 150 kya but one Neanderthal, which is dated to be 400-300 kya old found in Sima de los Huesos, Spain and was not so easy to classify as a Neanderthal. From nuclear DNA we know that: 
-
-- Humans splitted from Neanderthals and Denisovans 700-500 kya
-- Neanderthals splitted from Denisovans 400-300 kya
-- The 3 Neanderthals in this data set belong to the same group, so they are all Neanderthals
-
-3. **whales**: Whale phylogeny data set discussed in the book. It is from the gamma-fibronogen gene in 16 mammalian species. It should be in reading frame so it can be analysed as coding. 
-
-4. **BRCA1**: Orthologue genes to the human breast cancer susceptibility gene (BRCA1) from 23 different rodent species. It is in reading frame.
-
-5. **EKAF**: Protein coding sequences from mouse, gorilla, chimpanzee and human. This protein is suspected to give humans the hability to lie and fake stories.  
+>**Fig 1.** independent phylogeny of Medicago genus (based on ITS sequences) and evolutionary transition in symbiotic specificity along the phylogeny. Topology is contained in the newick tree file [bena.nwk.zip](bena.nwk.zip). Ancestral reconstruction was used to infer the symbiotic specificities of each node. Branches where a shift in symbiotic specificity occurred are marked (numbered 1 to 5). See for details Béna G, et al : Medicago – Sinorhizobium symbiotic specificity evolution and the geographic expansion of Medicago. J Evol Biol 2005, 18:1547-1558.
 
 
-### 1. Primates
+##### 1. Building a phylogeny of the Medicago genus using NORK
 
-1.1. Reproduce the NJ and UPGMA trees from the Nei and Kumar book (Fig 1).
+1.1. Which substitution model fits the data the best among JC, K2 and Tamura Nei? Why is that? Do you need to account for other parameters (R, I, Gamma…)?
 
-<img src="Fig2.png" width="50%">
+1.2. Build a phylogenetic tree using the NJ algorithm and comment on it by answer the following questions:
 
->**Fig 2.** Nei and Kumar book figure for the primate dataset.
+- Is the Medicago genus monophyletic under your phylogenetic reconstruction? 
 
-1.2. Why are the branch lengths longer when using Kimura substitution model compared to p distances model? 
+Hint: you can easily visualize different groups in your tree by using the option in “Data/Select Taxa" and Groups” before doing the tree reconstruction. Note that Medicago samples are named by the specific name (starting with a lowercase letter) and the rest by the generic name (starting with an uppercase letter).
 
-1.3. What does it mean to “bootstrap an internal node”? How do you interpret the boostrap values in the previous trees? Are they different among trees?
+- Do you see major changes compared to Fig 1?
 
-1.4. Build a Maximum Parsimony tree. Does the topology agree with distance methods? Try to run it with a few (50 or 100) bootsraps
-
-**NOTE:** In my case, MEGAX crashes every time I try to incorporate boostrap estimation in the MP tree. If it happens to you, try to get someone else’s tree or don’t worry about it. 
+- Is there any node that has little support by bootstrap? 
 
 
-### 2. HomomtDNA
 
-2.1. Which substitution model is the best for this data? What is the transition/transversion bias? And the gamma parameter?
+##### 2. Test of evolutionary hypotheses regarding the evolution of NORK in the Medicago genus
 
-2.2. Build a tree using NJ and 1,000 bootstrap replicates
+2.1. What is the average level of selective constraint (as measured by the ratio =dN/dS) experienced by NORK? Discuss the estimate of you obtain and whether it suggests purifying selection, neutrality or the occurrence of positive selection.
 
-2.3. Is the topology as you expected? Exploit the phylogenetic relationship between Denisovans, Neanderthals and Modern Humans (some details explained in the data set description above) and comment your bootstrap evidence
+2.2. Is the level of selective constraint (dN/dS) homogeneous in the Medicago phylogeny?
+Compare the average dN/dS estimated above with the dN/dS you can estimate in sub groups of the tree. Use the known transitions in symbiotic specificity / mating system evolution in the Medicago genus (see figure below) to investigate whether the selective constraint has changed in specific groups of the Medicago phylogeny. 
 
-### 3. Whales
+Hint: use MEGA to define subgroups in the datasets with each subgroup containing the sequences from the clade you want to examine for  and compute a mean within those subgroups.
 
-3.1. Build trees using UPGMA, NJ, ML and MP
 
-3.2. Do you get the same tree topology and bootstrap values?
-
-3.3. Which methods provide the largest bootstrap support? Is this what you expected?
-
-### 4. BRCA1
-
-4.1. Make two phylogenetic trees using different methods
-
-4.2. Are they significantly different when comparing bootstrap values? (assume that a bootstrap value above 70% is significant)
-
-4.3. Is the phylogeny well resolved, i.e. are most bootstrap values > 80%?
-
-### 5. EKAF
-
-5.1. This is a protein that has been evolving in mammals at the same speed (constant evolutionary rate). Which tree algorithm you think should be used? Why?
-
-5.2. Estimate two phylogenetic trees using the tree algorithm you decided: one for synonymous positions and one for non-synonymous. In order to be able to select for that, when you choose to build a tree, under “substitution model”, in “substitution type”, you must select “syn-Nonsynonymous”. You will see that another drop-down menu appears that will give you the option to choose between synonymous or non-synonymous sites. For these trees, don’t worry about the substitution model (Jukes-Cantor, Kimura…), go ahead with the default options. Are the trees different? Why do you think they are different?
-
-5.3. Translate the DNA sequence into a protein sequence. Align these proteins and save your result as a MEGA (.meg) file. Then, construct a tree with the protein aligned sequences. Does the tree look most like the synonymous or non-synonymous tree from question 5.2? Why?
-
-5.4. BONUS EXERCISE (it is not mandatory to include it in the hand in). In MEGAX, open the file in the ALIGN menu. Select a sequence (the human will do) and BLAST it. Alternatively, you can open the file in a text editor (Sublime, textEdit, notepad...) copy the human sequence and paste it in [BLAST](https://blast.ncbi.nlm.nih.gov/Blast.cgi?PROGRAM=blastn&PAGE_TYPE=BlastSearch&LINK_LOC=blasthome) and do a manual blast search. Which sequence is the EKAF homologous to? Surprised? Do you think this protein deserves it's name?
+### 2. Solve Chapter 9 exercises from Nielsen and Slatkin book
