@@ -13,7 +13,7 @@ Legumes have the ability to form symbiotic associations with soil bacteria (a po
 The alignment of a fragment of the NORK coding sequence (CDS) gene of 32 species of the Medicago genus and  6 other species within the Legumes family is provided in MEGA format ([nork.meg.zip](nork.meg.zip)).
 
 Additionaly, a phylogeny (Fig 1) of the genus Medicago (available as a newick tree file [bena.nwk.zip](bena.nwk.zip) that can be viewed in MEGA). This phylogeny is described fully in 
-Béna G et al, (Molecular phylogeny supports the morphologically based taxonomic transfer of the "medicagoid" Trigonella species into the genus Medicago L.)[https://link.springer.com/article/10.1007/s006060170012], Plant Syst Evol 2001, 229:217-236.
+Béna G et al, ( Molecular phylogeny supports the morphologically based taxonomic transfer of the medicagoid Trigonella species into the genus Medicago L. )[https://link.springer.com/article/10.1007/s006060170012], Plant Syst Evol 2001, 229:217-236.
 
 
 <img src="Fig1.png" width="50%">
