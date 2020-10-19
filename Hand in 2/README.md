@@ -13,13 +13,11 @@ Legumes have the ability to form symbiotic associations with soil bacteria (a po
 The alignment of a fragment of the NORK coding sequence (CDS) gene of 32 species of the Medicago genus and  6 other species within the Legumes family is provided in MEGA format ([nork.meg.zip](nork.meg.zip)).
 
 Additionaly, a phylogeny (Fig 1) of the genus Medicago (available as a newick tree file [bena.nwk.zip](bena.nwk.zip) that can be viewed in MEGA). This phylogeny is described fully in 
-Béna G et al, (Molecular phylogeny supports the morphologically based taxonomic transfer of the medicagoid Trigonella species into the genus Medicago L)[https://link.springer.com/article/10.1007/s006060170012] , Plant Syst Evol 2001, 229:217-236.
-
+Béna G et al, (Molecular phylogeny supports the morphologically based taxonomic transfer of the medicagoid Trigonella species into the genus Medicago L., Plant Syst Evol 2001, 229:217-236.
 
 <img src="Fig1.png" width="75%">
 
 >**Fig 1.** independent phylogeny of Medicago genus (based on ITS sequences) and evolutionary transition in symbiotic specificity along the phylogeny. Topology is contained in the newick tree file [bena.nwk.zip](bena.nwk.zip). Ancestral reconstruction was used to infer the symbiotic specificities of each node. Branches where a shift in symbiotic specificity occurred are marked (numbered 1 to 5). See for details Béna G, et al : Medicago – Sinorhizobium symbiotic specificity evolution and the geographic expansion of Medicago. J Evol Biol 2005, 18:1547-1558.
-
 
 ##### 1. Building a phylogeny of the Medicago genus using NORK
 
@@ -35,8 +33,6 @@ Hint: you can easily visualize different groups in your tree by using the option
 
 - Is there any node that has little support by bootstrap? 
 
-
-
 ##### 2. Test of evolutionary hypotheses regarding the evolution of NORK in the Medicago genus
 
 2.1. What is the average level of selective constraint (as measured by the ratio =dN/dS) experienced by NORK? Discuss the estimate of you obtain and whether it suggests purifying selection, neutrality or the occurrence of positive selection.
@@ -44,7 +40,6 @@ Hint: you can easily visualize different groups in your tree by using the option
 2.2. Is the level of selective constraint (dN/dS) homogeneous in the Medicago phylogeny?
 Compare the average dN/dS estimated above with the dN/dS you can estimate in sub groups of the tree. Use the known transitions in symbiotic specificity / mating system evolution in the Medicago genus (see figure below) to investigate whether the selective constraint has changed in specific groups of the Medicago phylogeny. 
 
-Hint: use MEGA to define subgroups in the datasets with each subgroup containing the sequences from the clade you want to examine for  and compute a mean within those subgroups.
-
+Hint: use MEGA to define subgroups in the datasets with each subgroup containing the sequences from the clade you want to examine for dN/dS and compute a mean dN/dS within those subgroups.
 
 ### 2. Solve Chapter 9 exercises from Nielsen and Slatkin book
