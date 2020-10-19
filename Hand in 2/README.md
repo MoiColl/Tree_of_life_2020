@@ -35,11 +35,12 @@ Hint: you can easily visualize different groups in your tree by using the option
 
 ### 2. Test of evolutionary hypotheses regarding the evolution of NORK in the Medicago genus
 
-2.1. What is the average level of selective constraint (as measured by the ratio =dN/dS) experienced by NORK? Discuss the estimate of you obtain and whether it suggests purifying selection, neutrality or the occurrence of positive selection.
+2.1. What is the average level of selective constraint (as measured by the ratio dN/dS) experienced by NORK? Discuss the estimate of dN/dS you obtain and whether it suggests purifying selection, neutrality or the occurrence of positive selection. Give the Z-score and associated p-value for the dN/dS .
 
-2.2. Is the level of selective constraint (dN/dS) homogeneous in the Medicago phylogeny?
-Compare the average dN/dS estimated above with the dN/dS you can estimate in sub groups of the tree. Use the known transitions in symbiotic specificity / mating system evolution in the Medicago genus (see figure below) to investigate whether the selective constraint has changed in specific groups of the Medicago phylogeny. 
+2.2. Is the level of selective constraint (dN/dS) homogeneous in the Medicago phylogeny? Compare the average dN/dS estimated above with the dN/dS you can estimate in sub groups of the tree. Use the known transitions in symbiotic specificity evolution in the Medicago genus (Fig 1) to investigate whether the selective constraint has changed in specific groups of the Medicago phylogeny. Give the Z-score and associated p-value for each dN/dS ratio.
 
 Hint: use MEGA to define subgroups in the datasets with each subgroup containing the sequences from the clade you want to examine for dN/dS and compute a mean dN/dS within those subgroups.
+
+2.3. Do you conclude that this gene has been under positive selection, negative selection or neutrality. If there were parts of the gene positively selected, would you expect to see that signal with the tests performed? How could you test for that?
 
 ## 2. Solve Chapter 9 exercises from Nielsen and Slatkin book
