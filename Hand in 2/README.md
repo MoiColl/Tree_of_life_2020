@@ -2,13 +2,13 @@
 
 In this hand in you will analyse the [NORK](https://www.uniprot.org/uniprot/Q8LKZ1) data set for selection using the phylogenetic concepts and tools you have learned during the last session. Furthermore, you will answer the exercises of Nielsen and Slatkin Book, Chapter 9. You must write a report answering some questions for the NORK data analysis (below) and the answers for the exercises with a proper explanation (if you type just the numerical answer for example, the exercise will be wrong). Make sure to include detailed information on how the analysis was performed (for example, which substitution model was used, number of bootstraps...). This report must be uploaded on Blackboard in **PDF** format before **Wednesday 28th of October at 11:59 pm**. You are welcomed to work in group, but you must write your own report.
 
-### 1. Molecular phylogenetics of the Medicago genus and patterns of molecular evolution of the NORK protein
+## 1. Molecular phylogenetics of the Medicago genus and patterns of molecular evolution of the NORK protein
 
-#### Background for the study
+### Background for the study
 
 Legumes have the ability to form symbiotic associations with soil bacteria (a polyphyletic group of bacteria called rhizobia) and thereby use atmospheric N2 as a source of nitrogen. Here we focus on the phylogeny of the plant genus Medicago and on a particular gene in the bacterial symbiotic recognition pathway; the NORK gene. The gene NORK (Nodulation Receptor Kinase) is required to recognize a complex sugar molecule synthesized by microbial rhizobia and start the symbiosis relationship. The C-terminal region of the extracellular contains three Leucine-Rich Repeats (LRRs) which are motifs involved in ligand binding.
 
-#### Data
+### Data
 
 The alignment of a fragment of the NORK coding sequence (CDS) gene of 32 species of the Medicago genus and  6 other species within the Legumes family is provided in MEGA format ([nork.meg.zip](nork.meg.zip)).
 
@@ -19,7 +19,7 @@ Béna G et al, (Molecular phylogeny supports the morphologically based taxonomic
 
 >**Fig 1.** independent phylogeny of Medicago genus (based on ITS sequences) and evolutionary transition in symbiotic specificity along the phylogeny. Topology is contained in the newick tree file [bena.nwk.zip](bena.nwk.zip). Ancestral reconstruction was used to infer the symbiotic specificities of each node. Branches where a shift in symbiotic specificity occurred are marked (numbered 1 to 5). See for details Béna G, et al : Medicago – Sinorhizobium symbiotic specificity evolution and the geographic expansion of Medicago. J Evol Biol 2005, 18:1547-1558.
 
-##### 1. Building a phylogeny of the Medicago genus using NORK
+### 1. Building a phylogeny of the Medicago genus using NORK
 
 1.1. Which substitution model fits the data the best among JC, K2 and Tamura Nei? Why is that? Do you need to account for other parameters (R, I, Gamma…)?
 
@@ -33,7 +33,7 @@ Hint: you can easily visualize different groups in your tree by using the option
 
 - Is there any node that has little support by bootstrap? 
 
-##### 2. Test of evolutionary hypotheses regarding the evolution of NORK in the Medicago genus
+### 2. Test of evolutionary hypotheses regarding the evolution of NORK in the Medicago genus
 
 2.1. What is the average level of selective constraint (as measured by the ratio =dN/dS) experienced by NORK? Discuss the estimate of you obtain and whether it suggests purifying selection, neutrality or the occurrence of positive selection.
 
@@ -42,4 +42,4 @@ Compare the average dN/dS estimated above with the dN/dS you can estimate in sub
 
 Hint: use MEGA to define subgroups in the datasets with each subgroup containing the sequences from the clade you want to examine for dN/dS and compute a mean dN/dS within those subgroups.
 
-### 2. Solve Chapter 9 exercises from Nielsen and Slatkin book
+## 2. Solve Chapter 9 exercises from Nielsen and Slatkin book
