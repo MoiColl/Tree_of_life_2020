@@ -1,6 +1,6 @@
 # Hand in 2 - Selection using dN/dS
 
-In this hand in you will analyse the [NORK](nork.meg.zip) data set for selection using the phylogenetic concepts and tools you have learned during the last session. Furthermore, you will answer the exercises of Nielsen and Slatkin Book, Chapter 9. You must write a report answering some questions for the NORK data analysis (below) and the answers for the exercises with a proper explanation (if you type just the numerical answer for example, the exercise will be wrong). Make sure to include detailed information on how the analysis was performed (for example, which substitution model was used, number of bootstraps...). This report must be uploaded on Blackboard in **PDF** format before **Wednesday 28th of October at 11:59 pm**. You are welcomed to work in group, but you must write your own report.
+In this hand in you will analyse the [NORK](https://www.uniprot.org/uniprot/Q8LKZ1) data set for selection using the phylogenetic concepts and tools you have learned during the last session. Furthermore, you will answer the exercises of Nielsen and Slatkin Book, Chapter 9. You must write a report answering some questions for the NORK data analysis (below) and the answers for the exercises with a proper explanation (if you type just the numerical answer for example, the exercise will be wrong). Make sure to include detailed information on how the analysis was performed (for example, which substitution model was used, number of bootstraps...). This report must be uploaded on Blackboard in **PDF** format before **Wednesday 28th of October at 11:59 pm**. You are welcomed to work in group, but you must write your own report.
 
 ### 1. Molecular phylogenetics of the Medicago genus and patterns of molecular evolution of the NORK protein
 
@@ -13,10 +13,10 @@ Legumes have the ability to form symbiotic associations with soil bacteria (a po
 The alignment of a fragment of the NORK coding sequence (CDS) gene of 32 species of the Medicago genus and  6 other species within the Legumes family is provided in MEGA format ([nork.meg.zip](nork.meg.zip)).
 
 Additionaly, a phylogeny (Fig 1) of the genus Medicago (available as a newick tree file [bena.nwk.zip](bena.nwk.zip) that can be viewed in MEGA). This phylogeny is described fully in 
-Béna G et al, ( Molecular phylogeny supports the morphologically based taxonomic transfer of the medicagoid Trigonella species into the genus Medicago L. )[https://link.springer.com/article/10.1007/s006060170012], Plant Syst Evol 2001, 229:217-236.
+Béna G et al, (Molecular phylogeny supports the morphologically based taxonomic transfer of the medicagoid Trigonella species into the genus Medicago L)[https://link.springer.com/article/10.1007/s006060170012] , Plant Syst Evol 2001, 229:217-236.
 
 
-<img src="Fig1.png" width="50%">
+<img src="Fig1.png" width="75%">
 
 >**Fig 1.** independent phylogeny of Medicago genus (based on ITS sequences) and evolutionary transition in symbiotic specificity along the phylogeny. Topology is contained in the newick tree file [bena.nwk.zip](bena.nwk.zip). Ancestral reconstruction was used to infer the symbiotic specificities of each node. Branches where a shift in symbiotic specificity occurred are marked (numbered 1 to 5). See for details Béna G, et al : Medicago – Sinorhizobium symbiotic specificity evolution and the geographic expansion of Medicago. J Evol Biol 2005, 18:1547-1558.
 
