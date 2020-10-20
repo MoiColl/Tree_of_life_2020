@@ -10,7 +10,7 @@ Learning goals of this computer session:
 + Choosing a method for estimating dN and dS adapted to your dataset. 
 + Testing for purifying selection versus selective neutrality and interpreting the tests results
 
-Before this session, to understand all the notation, read the section [4.2 Synonymous and Nonsynonymous Substitutions](https://www.megasoftware.net/mega1_manual/Distance.html) from MEGAX help and the section *Rates of Substitution of Selected Alleles* from Chapter 8 in Nielsen's and Slatkin's book, specially BOX 8.2 and 8.3.
+Before this session, to understand all the notation, read the section [4.2 Synonymous and Nonsynonymous Substitutions](https://www.megasoftware.net/mega1_manual/Distance.html) from MEGAX help and the section *Rates of Substitution of Selected Alleles* from Chapter 8 in Nielsen's and Slatkin's book, specially BOX 8.2 and 8.3. You can also watch [this](https://www.youtube.com/watch?v=VnxpGxI9CCs) youtube video that explains what dN/dS is calculated and the intuition behind it.
 
 We are going to work with the following [data sets](data.zip):
 
