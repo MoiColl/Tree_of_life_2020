@@ -76,7 +76,7 @@ You should tell me why you choose that statistic, what it is measuring and what 
 Then, you must perform your analysis, present the results and what are your conclussions. Best case scenario will be that your alternative hypotesis might be correct and you find some signals of selection, but if you get that the boring null hypotesis is the most likely one... well... you will learn that science is not easy (Fig 2). 
 
 
-<img src="Fig2.png" width="75%">
+<img src="Fig2.png" width="25%">
 
 >**Fig 2.** Science... sometimes is hard :)
 
