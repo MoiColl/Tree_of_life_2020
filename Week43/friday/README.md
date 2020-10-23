@@ -4,6 +4,10 @@
 
 ### 1. Revising D and D' to quantify Linkage Disequilibrium
 
+In class I'll explain how to calculate D and D' and the most important insight I've got from these two statistics. 
+
+You can check the [PDF](linkage.pdf) explaining exercise 6.1 from Nielsen and Slatkin's book that I'll use. Here you also have the document in [Rmd](linkage.Rmd) in case you want to play with the code bits.
+
 ### 2. MEGAX exercise to analyze patterns of synonymous vs. non–synonymous substitutions  
 
 Learning goals of this computer session:
@@ -43,12 +47,14 @@ By repeating the steps above, you have to fill up a table like this:
 
 |      Data     |          Method         | R | S | N | Sd | Nd | pS | pN | dS | dN | w = dN/dS |
 |---------------|-------------------------|---|---|---|----|----|----|----|----|----|-----------|
-| gstdDroso.meg | Nei & Gojobori          |   |   |   |    |    |    |    |    |    |           |
-|               | Modified Nei & Gojobori |   |   |   |    |    |    |    |    |    |           |
-| Nd5.meg       | Nei & Gojobori          |   |   |   |    |    |    |    |    |    |           |
-|               | Modified Nei & Gojobori |   |   |   |    |    |    |    |    |    |           |
+| gstdDroso.meg | Nei & Gojobori          | X |   |   |    |    |    |    |    |    |           |
+|               | Modified Nei & Gojobori | X |   |   |    |    |    |    |    |    |           |
+| Nd5.meg       | Nei & Gojobori          | X |   |   |    |    |    |    |    |    |           |
+|               | Modified Nei & Gojobori | X |   |   |    |    |    |    |    |    |           |
 | HLA-3Seq.meg  | Nei & Gojobori          |   |   |   |    |    |    |    |    |    |           |
 |               | Modified Nei & Gojobori |   |   |   |    |    |    |    |    |    |           |
+
+X = can't be calculated since there are only two taxa in the alignment.
 
 I recomend you team up with some people (5 more) and distribute each line to be computed. 
 
