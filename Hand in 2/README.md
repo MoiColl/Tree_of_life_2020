@@ -1,8 +1,16 @@
 # Hand in 2 - Selection using dN/dS
 
-In this hand in you will analyse the [NORK](https://www.uniprot.org/uniprot/Q8LKZ1) data set for selection using the phylogenetic concepts and tools you have learned during the last session. Furthermore, you will answer the exercises of Nielsen and Slatkin Book, Chapter 9. You must write a report answering some questions for the NORK data analysis (below) and the answers for the exercises with a proper explanation (if you type just the numerical answer for example, the exercise will be wrong). Make sure to include detailed information on how the analysis was performed (for example, which substitution model was used, number of bootstraps...). This report must be uploaded on Blackboard in **PDF** format before **Wednesday 28th of October at 11:59 pm**. You are welcomed to work in group, but you must write your own report.
+In this hand in you will work on selection by analysing some data and testing for selection (Part 1) and you will also do theoretical exercises of Nielsen and Slatkin Book, Chapter 9 (Part 2). For Part 1 you can choose two potions: 
 
-## 1. Molecular phylogenetics of the Medicago genus and patterns of molecular evolution of the NORK protein
+A. you will analyse the [NORK](https://www.uniprot.org/uniprot/Q8LKZ1) data set for selection using the phylogenetic concepts and tools you have learned during the last TA session. Then you will have to answer some questions for the NORK data analysis (below). Make sure to include detailed information on how the analysis was performed (for example, which substitution model was used, number of bootstraps...).
+
+B. you can formulate an hypothesis about selection (look a bit below for examples) and test your hypothesis and explaining me your result and why it makes sense and why not. 
+
+You must write a report with Part 1 (either A or B) and Part 2. For Part 2 you have to show me that you've done the exercise by commenting the result or showing me how you calculate the results; I want to see that you did some work and just didn't copy paste it from the answers you already have. This report must be uploaded on Blackboard in **PDF** format before **Wednesday 28th of October at 11:59 pm**. You are welcomed to work in group, but you must write your own report (each of you must hand in a personal report).
+
+## Part 1
+
+## Option A. Molecular phylogenetics of the Medicago genus and patterns of molecular evolution of the NORK protein
 
 ### Background for the study
 
@@ -43,4 +51,34 @@ Hint: use MEGA to define subgroups in the datasets with each subgroup containing
 
 2.3. Do you conclude that this gene has been under positive selection, negative selection or neutrality? If there were parts of the gene positively selected, would you expect to see that signal with the tests performed? How could you test for that?
 
-## 2. Solve Chapter 9 exercises from Nielsen and Slatkin book
+## Option B. Test your selection hypotesis
+
+Here you have to start by formulating an hypotesis that you can test about selection. Some examples can be:
+
+- Is SARS-CoV2 evolving neutraly? Is it under adaptive evolution? 
+- Are there certain proteins in SARS-CoV2 under negative selection (structural proteins) but others under adaptive evolutions (spike protein)?
+- Are pseudogenes evolving more neutraly than their functional paralogs?
+- Are proteins that are highly expressed under more negative selection than proteins that are not so expressed?
+- LCT (lactase) gene is an example of positive selection in Humans since certain mutations allow adult humans to digest lactose compared to other mammals. Can I identify which region of the protein is under positive selection?
+- Is there more selection in introns than in exons?
+
+But you can be creative and make your own hypotesis (please, be creative... when I correct is more fun!). An aspect you need to consider is the data that you are going to use and if it is accessible to you. 
+
+Then, you have to decide which statistic is more adequate your hypotesis. You can use the statistics introduced to you in Chapter 9 in Nielsen and Sltakin's book:
+
+1. dN/dS test
+2. HKA test 
+3. MacDonal-Kreitman test
+4. Tajima's D test
+
+You should tell me why you choose that statistic, what it is measuring and what you expect to be the result. 
+
+Then, you must perform your analysis, present the results and what are your conclussions. Best case scenario will be that your alternative hypotesis might be correct and you find some signals of selection, but if you get that the boring null hypotesis is the most likely one... well... you will learn that science is not easy (Fig 2). 
+
+
+<img src="Fig2.png" width="75%">
+
+>**Fig 2.** Science... sometimes is hard :)
+
+
+## Part 2. Solve Chapter 9 exercises from Nielsen and Slatkin book
