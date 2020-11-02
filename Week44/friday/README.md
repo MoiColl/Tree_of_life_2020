@@ -1,7 +1,5 @@
-# Friday Week40 (UNDER CONSTRUCTION)
+# Friday Week44
 
-## Work plan
-
-### 1.
+## Hand-in II correction
 
 
