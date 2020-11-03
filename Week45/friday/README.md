@@ -2,6 +2,9 @@
 
 ## Work plan
 
+1. Gene Duplication tutorial in MEGAX
+2. Globins Gene Duplication exercise in MEGAX
+
 ### 1. Gene Duplication tutorial in MEGAX
 
 This example shows how to identify gene duplications and speciation in MEGAX. For this analysis, MEGA uses a Gene Duplication Wizard window which will walk you through the necessary steps. The data files used in this example can be found  in the MEGA/Examples folder (The default location for Windows users is in `~\Documents\MEGAX\Examples\`
@@ -77,7 +80,7 @@ You can also traverse gene duplications or speciations throughout the tree by:
 1. Click `Search`
 2. Click `Gene Duplication/Speciation Events`
 
-### 1. Globins Gene Duplication exercise in MEGAX
+### 2. Globins Gene Duplication exercise in MEGAX
 
 As you read in page 297 of Dan Graur's book, the human globins have a deeply studied gene duplication history. In this exercise, you are only provided with some [globin](globin.fa) genes from humans, chimps, rats and fruit fies. 
 
