@@ -84,6 +84,10 @@ You can also traverse gene duplications or speciations throughout the tree by:
 
 As you read in page 297 of Dan Graur's book, the human globins have a deeply studied gene duplication history (Fig 1). In this exercise, you are only provided with some [globin](globin.fa) genes from humans, chimps, rats and fruit fies. 
 
+<img src="Fig1.png" width="50%">
+
+>**Fig 1.** Dan Graur's Book Figure 7.16
+
 By using all the knowledge you aquired during this course, you will have to:
 
 1. Align the sequences
