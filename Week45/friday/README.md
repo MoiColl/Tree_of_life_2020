@@ -82,7 +82,7 @@ You can also traverse gene duplications or speciations throughout the tree by:
 
 ### 2. Globins Gene Duplication exercise in MEGAX
 
-As you read in page 297 of Dan Graur's book, the human globins have a deeply studied gene duplication history (Fig 1). In this exercise, you are only provided with some globin genes from humans, chimps, rats and fruit fies [globin.fa.zip](globin.fa.zip). 
+As you read in page 297 of Dan Graur's book, the human globins have a deeply studied gene duplication history (Fig 1). In this exercise, you are only provided with some globin genes from humans, chimps, rats and fruit fies [globins.fa.zip](globins.fa.zip). 
 
 <img src="Fig1.png" width="50%">
 
