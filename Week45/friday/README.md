@@ -2,7 +2,7 @@
 
 ## Work plan
 
-### 1. Gene Duplication exercise in MEGAX
+### 1. Gene Duplication tutorial in MEGAX
 
 This example shows how to identify gene duplications and speciation in MEGAX. For this analysis, MEGA uses a Gene Duplication Wizard window which will walk you through the necessary steps. The data files used in this example can be found  in the MEGA/Examples folder (The default location for Windows users is in `~\Documents\MEGAX\Examples\`
 
@@ -76,6 +76,27 @@ You can also traverse gene duplications or speciations throughout the tree by:
 
 1. Click `Search`
 2. Click `Gene Duplication/Speciation Events`
+
+### 1. Globins Gene Duplication exercise in MEGAX
+
+As you read in page 297 of Dan Graur's book, the human globins have a deeply studied gene duplication history. In this exercise, you are only provided with some [globin](globin.fa) genes from humans, chimps, rats and fruit fies. 
+
+By using all the knowledge you aquired during this course, you will have to:
+
+1. Align the sequences
+2. Test which substitution model and other parameters explain the best your data
+3. Construct a phylogenetic tree
+4. Interpret the phylogenetic tree with what it is explained in Dan Graur's (chapter 7)
+
+NOTE: When you construct the phylogenetic tree, remember you can root the tree for better visualization. 
+
+Then, asnwer those questions:
+
+##### 1. For each internal node discuss if it represents a gene duplication or a speciation event.
+##### 2. Do HBA genes in primates and in rats have a common ancestor? Think about an scenario that could lead to this tree
+##### 3. Comment the phylogenetic relationship between the HBA in primates.
+##### 4. Check your hypothesis of gene duplication and species split in humans from the first question and by comparing with Figure 7.16 in Dan Graur's book and the split times between species (check this [link](http://www.timetree.org)).
+
 
 
 
