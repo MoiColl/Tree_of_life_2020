@@ -45,5 +45,8 @@ My advice is to use data subsetting in combination with for loops to calculate t
 #### 10. Why do the results differ between question 2 and 9? (Hint: Look at the "SNP calling in palindromes" section of the paper.)
 
 ### Optional exercize A
+Divide the the Y chromosome into 100kb non-overlapping windows and calculate SNP and non-SNP frequences for each window. Plot mutation frequencies along window positions. What patterns can you see?
 
+### Optional exercize B
+Are there differences in mutation frequencies between genes that differ in tissue expression (testis vs. non-testis expression) or regional position (X-degenerate vs. ampliconic)? Are there differences in cacluated statstics for different Y haplogroups?
 
