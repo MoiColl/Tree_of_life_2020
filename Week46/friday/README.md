@@ -33,7 +33,7 @@ At the end of this text, there are 10 questions you need to find answers to. Rea
 My advice is to use data subsetting in combination with for loops to calculate the necessary statistics quickly and efficiently. Again, those of you more confident in your programming skill, feel free to use other methods of your choosing to answer questions.
 
 ### Questions
-#### 1. What is the mean SNP frequency across genes? (Hint: normalize the number of SNPs in a gene with gene length)
+#### 1. What is the mean SNP frequency across genes? (Hint: normalize the number of SNPs in a gene with gene length.)
 #### 2. Which gene has the highest SNP frequency and what is the value?
 #### 3. What is the mean mutation frequency of non-SNP mutations? Compare this value to mean SNP frequency - is this expected and why?
 #### 4. Which gene has the highest non-SNP frequency per position and what is the value?
@@ -45,8 +45,8 @@ My advice is to use data subsetting in combination with for loops to calculate t
 #### 10. Why do the results differ between question 2 and 9? (Hint: Look at the "SNP calling in palindromes" section of the paper.)
 
 ### Optional exercize A
-Divide the the Y chromosome into 100kb non-overlapping windows and calculate SNP and non-SNP frequences for each window. Plot mutation frequencies along window positions. What patterns can you see?
+Divide the the Y chromosome into 100kb non-overlapping windows and calculate mutation frequences for each window. Plot mutation frequencies along window positions. What patterns can you see?
 
 ### Optional exercize B
-Are there differences in mutation frequencies between genes that differ in tissue expression (testis vs. non-testis expression) or regional position (X-degenerate vs. ampliconic)? Are there differences in cacluated statstics for different Y haplogroups?
+Are there differences in mutation frequencies or copy numbers between genes that differ in tissue expression (testis vs. non-testis expression) or regional position (X-degenerate vs. ampliconic)? Are there differences between different Y haplogroups?
 
