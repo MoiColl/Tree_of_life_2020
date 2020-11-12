@@ -41,7 +41,7 @@ My advice is to use data subsetting in combination with for loops to calculate t
 #### 6. Which gene has the highest mean copy number across individuals?
 #### 7. Is mean copy number more vairable across genes or individuals? Why might this be the case?
 #### 8. What is the correlation coefficient between mean gene copy number and SNP frequency? Is this expected and why?
-#### 9. For each gene, re-caclulate SNP frequency by normalizing the number of SNPs with the product of gene length and mean copy number (i.e. the sum total sequence length of all copies of a gene). Which gene has the highest SNP freqeuncy now?
+#### 9. For each gene, re-caclulate SNP frequency by normalizing the number of SNPs with the product of gene length and mean copy number (i.e. the sum total sequence length of all copies of a gene). Which gene has the highest SNP frequency now?
 #### 10. Why do the results differ between question 2 and 9? (Hint: Look at the "SNP calling in palindromes" section of the paper.)
 
 ### Optional exercize A
