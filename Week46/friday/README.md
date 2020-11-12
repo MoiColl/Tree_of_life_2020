@@ -14,7 +14,7 @@ This file contains information about all the variants found of the Y (both in ge
 This file contains copy number variation information for each gene and individual.
 
 ### R examples
-The most useful R functions that you will need to answer the questions are [`subset`](https://www.rdocumentation.org/packages/base/versions/3.6.2/topics/subset) and [`melt`](https://www.rdocumentation.org/packages/reshape2/versions/1.4.4/topics/melt). Examples on how to use these functions can be found in the [`examples.R.zip`](examples.R) file. Note however that there are many ways in R to subset and extract infromation from datasets, so those of you who are comfortable with R programming can use whichever method you choose to get to the required answers.
+The most useful R functions that you will need to answer the questions are [`subset`](https://www.rdocumentation.org/packages/base/versions/3.6.2/topics/subset) and [`melt`](https://www.rdocumentation.org/packages/reshape2/versions/1.4.4/topics/melt). Examples on how to use these functions can be found in the [`examples.R.zip`](examples.R.zip) file. However, there are many ways in R to subset and extract information from datasets, so those of you who are comfortable with R programming can use whichever method you choose to get to the required answers.
 
 The [`subset`](https://www.rdocumentation.org/packages/base/versions/3.6.2/topics/subset) function is useful when you want to extract a proportion of a dataset that matches specific criteria. For example, you will need to extract variants in a specific region of the Y (e.g. a gene). Assuming that variants are contained in a `variants` data.frame loaded into R, and that the column `Position` contains infromation about variant position, you can subset the data.frame using the command:
 
@@ -22,7 +22,7 @@ The [`subset`](https://www.rdocumentation.org/packages/base/versions/3.6.2/topic
 
 This will create a new data.frame `variants_8000000_9000000` that contains variants between positions 8000000 and 9000000.
 
-The [`melt`](https://www.rdocumentation.org/packages/reshape2/versions/1.4.4/topics/melt) function is part of the [`reshape2`](https://www.rdocumentation.org/packages/reshape2/versions/1.4.4) library and is useful when you want to transform column data into row data. Specifically, the `genes.txt` file has a `Symbol` column where each row contains a gene symbol, while the `copyNumbers.txt` file has gene symbols as columns. For subsetting purposes, it may be easier to `melt` the `copyNumbers.txt` data.frame as shown in [`examples.R.zip`](examples.R).
+The [`melt`](https://www.rdocumentation.org/packages/reshape2/versions/1.4.4/topics/melt) function is part of the [`reshape2`](https://www.rdocumentation.org/packages/reshape2/versions/1.4.4) library and is useful when you want to transform column data into row data. Specifically, the `genes.txt` file has a `Symbol` column where each row contains a gene symbol, while the `copyNumbers.txt` file has gene symbols as columns. For subsetting purposes, it may be easier to `melt` the `copyNumbers.txt` data.frame as shown in [`examples.R.zip`](examples.R.zip).
 
 ### Strategy
 #### 1. Familiarize yourselves with the data.frames.
