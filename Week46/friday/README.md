@@ -16,7 +16,7 @@ This file contains copy number variation information for each gene and individua
 ### R examples
 The most useful R functions that you will need to answer the questions are [`subset`](https://www.rdocumentation.org/packages/base/versions/3.6.2/topics/subset) and [`melt`](https://www.rdocumentation.org/packages/reshape2/versions/1.4.4/topics/melt). Examples on how to use these functions can be found in the [`examples.R.zip`](examples.R.zip) file. However, there are many ways in R to subset and extract information from datasets, so those of you who are comfortable with R programming can use whichever method you choose to get to the required answers.
 
-The [`subset`](https://www.rdocumentation.org/packages/base/versions/3.6.2/topics/subset) function is useful when you want to extract a proportion of a dataset that matches specific criteria. For example, you will need to extract variants in a specific region of the Y (e.g. a gene). Assuming that variants are contained in a `variants` data.frame loaded into R, and that the column `Position` contains infromation about variant position, you can subset the data.frame using the command:
+The [`subset`](https://www.rdocumentation.org/packages/base/versions/3.6.2/topics/subset) function is useful when you want to extract a proportion of a dataset that matches specific criteria. For example, you will need to extract variants in a specific region of the Y (e.g. a gene). Assuming that variants are contained in a `variants` data.frame loaded into R, and that the column `Position` contains information about variant position, you can subset the data.frame using the command:
 
 `variants_8000000_9000000 <- subset(variants, (Position>=8000000) & (Position<=9000000))`
 
