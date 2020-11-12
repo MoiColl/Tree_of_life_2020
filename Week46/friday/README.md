@@ -33,7 +33,7 @@ At the end of this text, there are 10 questions you need to find answers to. Rea
 My advice is to use data subsetting in combination with for loops to calculate the necessary statistics quickly and efficiently. Again, those of you more confident in your programming skill, feel free to use other methods of your choosing to answer questions.
 
 ### Questions
-#### 1. What is the mean SNP frequency across genes? (Hint: normalize the number of SNPs in a gene with gene length to get the freqeuncy.)
+#### 1. What is the mean SNP frequency across genes? (Hint: normalize the number of SNPs in a gene with gene length to get the frequency.)
 #### 2. Which gene has the highest SNP frequency and what is the value?
 #### 3. What is the mean mutation frequency of non-SNP mutations? Compare this value to mean SNP frequency - is this expected and why?
 #### 4. Which gene has the highest non-SNP frequency per position and what is the value?
