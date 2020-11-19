@@ -5,11 +5,14 @@ For this week's exercize, we will study the effect of protein evolution on tree 
 
 ### Background
 Amino acids have various physio-chemical properties (such as polarity or volume) that determine their role in a preotein sequence.
-<img src="AminoAcidProperties.jpg" width="50%">
->**Fig 1.** Amino acid properties.
-We can assume that a gene experiences significant evolution if the amino acids substitutions occurring in the protein are between amino acids that differ significantly with respect to their properties. Substitutions between amino acids that are similar would have little effect and can therefore be considered neutral, while increasing difference between amino acids can cause significant beneficial or deleterious effects on protein function. This thought led scientists to come up with various measures that quantify differences between amino acids. You can have a look at some of these indices here: [link](https://www.genome.jp/aaindex/). For this exercize, we will be using one of the first amino acid dissimilarity matrices devised by [Miyata (1979)](https://link.springer.com/article/10.1007/BF01732340), based on amino acid volume and polarity.
-<img src="AminoAcidProperties.jpg" width="50%">
 
+<img src="AminoAcidProperties.jpg" width="100%">
+>**Fig 1.** Amino acid properties.
+
+We can assume that a gene experiences significant evolution if the amino acids substitutions occurring in the protein are between amino acids that differ significantly with respect to their properties. Substitutions between amino acids that are similar would have little effect and can therefore be considered neutral, while increasing difference between amino acids can cause significant beneficial or deleterious effects on protein function. This thought led scientists to come up with various measures that quantify differences between amino acids. You can have a look at some of these indices here: [link](https://www.genome.jp/aaindex/). For this exercize, we will be using one of the first amino acid dissimilarity matrices devised by [Miyata (1979)](https://link.springer.com/article/10.1007/BF01732340), based on amino acid volume and polarity.
+
+<img src="mijata79.png" width="100%">
+>**Fig 2.** Miyata's dissimilariy matrix.
 
 ### Data files
 #### 1. genes.txt
