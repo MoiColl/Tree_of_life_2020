@@ -25,10 +25,18 @@ Miyata amino acid dissimilarity matrix.
 
 ### Strategy
 #### 1.  Load the protein alignment into MEGA and estimate the amino acid substitution matrix and the pyhlogenetic tree.
-After data has been loaded into MEGA, go to `MODELS` and select `Estimate Substitution Model (ML)...`. Set
-#### 2.  Correlating sustitution rates between animno acids with physiochemical properties of amino acids.
+Load the data into MEGA and choose `Analyse` (as the data are already aligned), go to `MODELS` and select `Estimate Substitution Model (ML)...`. Set as:
+
+<img src="megaOpt.png" width="100%">
+
+Run and save the resulting subsitution matrix for correlation estimation. Then select `Construct/Test Maximum Likelihood Tree...` from the `PHYLOGENY` menu using the same settings as for the substitution model. Save the tree for later inspection.
+
+#### 2.  Estimate the correlation between the substitution matrix the Miyata matrix.
+You can use excel to calculate the correlation using the `CORREL(array1, array2)` function or load the matrices into R and use the `cor.test(array1, array2)` function.
 #### 3.  Repeat for every gene.
-#### 4.  Interpretation of differences between gene trees based on correlation strength.
 
 ### Questions
-#### 1. 
+#### 1. What are the correlation values for each gene?
+#### 2. Is the sign of the correlation coefficient expected or not? Why?
+#### 3. Visually compare trees of genes with the highest and lowest correlation coeffcient. Which tree is more similar to the tree observed in the Rokas 2013 paper?
+
