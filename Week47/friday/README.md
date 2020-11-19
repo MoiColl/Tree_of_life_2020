@@ -42,6 +42,6 @@ You can use excel to calculate the correlation using the `CORREL(array1, array2)
 #### 1. What are the correlation values for each gene?
 #### 2. Is the sign of the correlation coefficients expected or not? Why?
 #### 3. What does the strength of the correlation imply about protein evolution?
-#### 4. Visually compare trees of genes with the highest and lowest correlation coeffcient. Which tree is more similar to the tree observed in the Rokas 2013 paper?
+#### 4. Visually compare trees of genes with the highest and lowest correlation coeffcient. Which tree is more similar to the tree observed in the Rokas 2013 paper? Comment on this observation.
 #### 5. In your opiniton, what are the advantages and disadvantages of using dissimilarity matrices in evolutionary analysis?
 
