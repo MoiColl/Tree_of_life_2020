@@ -34,7 +34,12 @@ Load the data into `MEGA` and choose `Analyse` (as the data are already aligned)
 Run and save the resulting substitution matrix for correlation estimation. Then select `Construct/Test Maximum Likelihood Tree...` from the `PHYLOGENY` menu and run using the same settings as for the substitution model. Save the tree for later inspection.
 
 #### 2. Estimate the correlation coefficient between the substitution matrix and the Miyata matrix.
-You can use excel to calculate the correlation using the `CORREL(array1, array2)` function or load the matrices into R and use the `cor.test(array1, array2)` function.
+You can use excel to calculate the correlation using the `CORREL(array1, array2)` function or load the matrices into R and use the `cor.test(array1, array2)` function. 
+
+For R users you can load the dataset:
+
+`data <- read.table("/Users/jura/Desktop/friday_17_11_2020/MEGA-result1.csv", sep = ";", dec = ",", header = T)`
+
 
 #### 3. Repeat for every gene.
 
