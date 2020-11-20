@@ -54,4 +54,4 @@ For R users you can load the datasets and calculate the correlation with:
 #### 5. In your opiniton, what are the advantages and disadvantages of using dissimilarity matrices in evolutionary analysis?
 #### 6. Based on your results, does protein evolution proceed by large or small steps at the amino acid level?
 
-
+[google doc](https://docs.google.com/document/d/1onm2k3x8k2XOhuxtDlHOR_jFKMsgspAtIotX-OP7aAk/edit#)
