@@ -42,7 +42,7 @@ For R users you can load the datasets and calculate the correlation with:
 
 `data <- read.table("/Users/jura/Desktop/friday_17_11_2020/MEGA-result1.csv", sep = ";", dec = ",", header = T)`
 
-`cor.test(unlist(aa[,2:21]),as.numeric(as.vector(unlist(bb[,2:21]))))`
+`cor.test(unlist(miyata[,2:21]),as.numeric(as.vector(unlist(data[,2:21]))))`
 
 #### 3. Repeat for every gene.
 
