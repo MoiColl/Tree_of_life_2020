@@ -27,7 +27,7 @@ Miyata's amino acid dissimilarity matrix.
 
 ### Strategy
 #### 1. Load the protein alignment into `MEGA` and estimate the amino acid substitution matrix and the pyhlogenetic tree.
-Load the data into `MEGA` and choose `Analyse` (as the data are already aligned), go to `MODELS` and select `Estimate Substitution Model (ML)...`. Set as:
+Load the data into `MEGA` and choose `Analyse` (as the data are already aligned), choose `Protein sequences` as the `DATA TYPE`, go to `MODELS` and select `Estimate Substitution Model (ML)...`. Set as:
 
 <img src="megaOpt.png" width="45%">
 
