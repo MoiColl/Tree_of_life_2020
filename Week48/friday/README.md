@@ -45,5 +45,5 @@ I suggest loading the data into `R` and familiarizing yourself with it. Use the 
 8. Plot the third and fourth principal component of the [`dataEE.txt.zip`](dataEE.txt.zip) dataset. How has the relationship between populations changed?
 ### General questions
 9. What would be some artefacts of ancient DNA sequencing that makes them unsuitable for calculating PCs?
-10. Apart from genotype data, what other type of biological data can we analyze with PCA?
+10. Apart from genotype data, what other type of biological data can you analyze with PCA?
 
