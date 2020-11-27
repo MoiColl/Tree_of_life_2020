@@ -22,7 +22,9 @@ So what happens to individuals that are not in populations listed in the populat
 The data you will be analyzing in this exercise has already been run with `smartPCA` and you will be working with principal components of west and east Eurasian populations.
 
 ### West Eurasian populations
-The principal component dataset is contained in [`dataWE.txt.zip`](dataWE.txt.zip). The columns of the dataset contain the ID of an individual, followed by the first 10 principal components, followed by the population identifier column (`POP`) and modern or ancient population identifier (`ModAnc`). Some populations in the `POP` column may be unfamiliar to you - I encourage you to google the populations. The [`dataWE_LatLong.txt.zip`](dataWE_LatLong.txt.zip) contain three columns: ID of an individual, latitude and longitude of ancient samples (note that latitude/longitude data is not available for all ancient samples).
+The principal component dataset is contained in [`dataWE.txt.zip`](dataWE.txt.zip). The columns of the dataset contain the ID of an individual, followed by the first 10 principal components, followed by the population identifier column (`POP`) and modern or ancient population identifier (`ModAnc`). Some populations in the `POP` column may be unfamiliar to you - I encourage you to google the populations. 
+
+The [`dataWE_LatLong.txt.zip`](dataWE_LatLong.txt.zip) file contains three columns: ID of an ancient individual, latitude and longitude of ancient samples (note that latitude/longitude data is not available for all ancient samples).
 
 ### East Eurasian populations
 The datasets are contained in the [`dataEE.txt.zip`](dataEE.txt.zip) file. The dataset contains modern individuals from Russia and Siberia, and four ancient Eskimo populations - two from Russian Eskimo people and two from USA Eskimo populations.
@@ -32,12 +34,12 @@ I suggest loading the data into `R` and familiarizing yourself with it. Use the 
 
 ## Questions
 ### West Eurasian populations
-1. Plot the first two principal components of the [`dataWE.txt.zip`](dataWE.txt.zip). Use the `ModAnc` column to color the points.
+1. Plot the first two principal components of the [`dataWE.txt.zip`](dataWE.txt.zip) file. Use the `ModAnc` column to color the points.
 2. Subset the dataset to the English, Norwegian, Finnish and Icelandic population (using the `POP` column) and plot the result. Interpret the relationship between populations (e.g., which populations cluster together, is this expected given the geography of the populations, how do the PCs split the populations?).
-3. Plot the third and fourth principal component. Has the relationship between populations changed?
-4. Subset the dataset to four population of your choice and plot the result. Interpret the relationship between populations.
-5. Correlate the latitude and longitude with the first two principal components and report the correlation coefficients and their significance. Comment on the result.
+3. Subset the dataset to four population of your choice and plot the result. Interpret the relationship between populations.
+4. Plot the third and fourth principal component. Has the relationship between populations changed?
+5. Correlate the latitude and longitude of ancient individuals with the first two principal components (hint: use `R` function `merge` to merge the `dataWE.txt.zip` and `dataWE_LatLong.txt.zip` by the `IND` column). Report the correlation coefficients and their significance. Comment on the result.
 
 ### East Eurasian populations
-1. Plot the first two principal components of the [`dataEE.txt.zip`](dataWE.txt.zip). Use the `POP` column to color the points. Interpret the relationship between populations (e.g., which populations cluster together, is this expected given the geography of the populations, how do the PCs split the populations?).
+1. Plot the first two principal components of the [`dataEE.txt.zip`](dataWE.txt.zip) file. Use the `POP` column to color the points. Interpret the relationship between populations (e.g., which populations cluster together, is this expected given the geography of the populations, how do the PCs split the populations?).
 2. Plot the third and fourth principal component. How has the relationship between populations changed?
