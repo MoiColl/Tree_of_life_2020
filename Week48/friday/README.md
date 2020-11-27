@@ -30,7 +30,7 @@ The [`dataWE_LatLong.txt.zip`](dataWE_LatLong.txt.zip) file contains three colum
 The dataset is contained in the [`dataEE.txt.zip`](dataEE.txt.zip) file. The column structure of the dataset is the same as for [`dataWE.txt.zip`](dataWE.txt.zip). The dataset contains modern individuals from Russia and Siberia, and four ancient Eskimo populations - two from Russian Eskimo people and two from USA Eskimo populations.
 
 ## Strategy
-I suggest loading the data into `R` and familiarizing yourself with it. Use the script [`examples.R.zip`](examples.R.zip) to get started with plotting data. Plot the first two PCs from the [`dataWE.txt.zip`](dataWE.txt.zip) dataset to make sure the plot is qualitatively similar to the PC plot from Mathieson et al. (2015).
+I suggest loading the data into `R`, familiarizing yourself with it and using the `ggplot2` library to plot. Use the script [`examples.R.zip`](examples.R.zip) to get started with plotting data. Plot the first two PCs from the [`dataWE.txt.zip`](dataWE.txt.zip) dataset to make sure the plot is qualitatively similar to the PC plot from Mathieson et al. (2015).
 
 ## Questions
 ### West Eurasian populations
