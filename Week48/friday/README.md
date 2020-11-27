@@ -34,7 +34,7 @@ I suggest loading the data into `R` and familiarizing yourself with it. Use the 
 
 ## Questions
 ### West Eurasian populations
-1. Plot the first two principal components of the [`dataWE.txt.zip`](dataWE.txt.zip) file. Use the `ModAnc` column to color the points.
+1. Plot the first two principal components of the [`dataWE.txt.zip`](dataWE.txt.zip) dataset. Use the `ModAnc` column to color the points.
 2. Subset the dataset to the English, Norwegian, Finnish and Icelandic population (using the `POP` column) and plot the result. Interpret the relationship between populations (e.g., which populations cluster together, is this expected given the geography of the populations, how do the PCs split the populations?).
 3. Subset the dataset to four populations of your choice and plot the result. Interpret the relationship between populations.
 4. Plot the third and fourth principal component. Has the relationship between populations changed?
