@@ -27,7 +27,7 @@ The principal component dataset is contained in [`dataWE.txt.zip`](dataWE.txt.zi
 The [`dataWE_LatLong.txt.zip`](dataWE_LatLong.txt.zip) file contains three columns: ID of an ancient individual, latitude and longitude of ancient samples (note that latitude/longitude data is not available for all ancient samples).
 
 ### East Eurasian populations
-The datasets are contained in the [`dataEE.txt.zip`](dataEE.txt.zip) file. The dataset contains modern individuals from Russia and Siberia, and four ancient Eskimo populations - two from Russian Eskimo people and two from USA Eskimo populations.
+The dataset is contained in the [`dataEE.txt.zip`](dataEE.txt.zip) file. The column structure of the dataset is the same as for [`dataWE.txt.zip`](dataWE.txt.zip). The dataset contains modern individuals from Russia and Siberia, and four ancient Eskimo populations - two from Russian Eskimo people and two from USA Eskimo populations.
 
 ## Strategy
 I suggest loading the data into `R` and familiarizing yourself with it. Use the script [`examples.R.zip`](examples.R.zip) to get started with plotting data. Plot the first two PCs from the [`dataWE.txt.zip`](dataWE.txt.zip) dataset to make sure the plot is qualitatively similar to the PC plot from Mathieson et al. (2015).
@@ -43,3 +43,4 @@ I suggest loading the data into `R` and familiarizing yourself with it. Use the 
 ### East Eurasian populations
 1. Plot the first two principal components of the [`dataEE.txt.zip`](dataWE.txt.zip) dataset. Use the `POP` column to color the points. Interpret the relationship between populations (e.g., which populations cluster together, is this expected given the geography of the populations, how do the PCs split the populations?).
 2. Plot the third and fourth principal component. How has the relationship between populations changed?
+3. Plot some other combinations of 5+ pricnipal components? What is the general pattern? 
