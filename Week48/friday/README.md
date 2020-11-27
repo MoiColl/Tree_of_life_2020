@@ -22,7 +22,7 @@ So what happens to individuals that are not in populations listed in the populat
 The data you will be analyzing in this exercise has already been run with `smartPCA` and you will be working with principal components of west and east Eurasian populations.
 
 ### West Eurasian populations
-The principal component dataset is contained in [`dataWE.txt.zip`](dataWE.txt.zip). The columns of the dataset contain the ID of an individual, followed by the first 10 principal components, followed by the population identifier column (`POP`) and modern or ancient population identifier (`ModAnc`). Some populations in the `POP` column may be unfamiliar to you - I encourage you to google the populations. 
+The principal component dataset is contained in [`dataWE.txt.zip`](dataWE.txt.zip). The columns of the dataset contain the ID of an individual, followed by the first 10 principal components, followed by the population identifier column (`POP`) and modern or ancient population identifier (`ModAnc`). Some populations in the `POP` column may be unfamiliar to you - I encourage you to spend some time googling these populations and their origin so you can come up with an interesting set of populations for later analyses. 
 
 The [`dataWE_LatLong.txt.zip`](dataWE_LatLong.txt.zip) file contains three columns: ID of an ancient individual, latitude and longitude of ancient samples (note that latitude/longitude data is not available for all ancient samples).
 
