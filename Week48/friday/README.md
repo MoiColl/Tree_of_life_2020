@@ -1,7 +1,7 @@
 # Friday Week48
 
 ## Work plan
-For this week's exercize, we will recreate the PCA results of the paper we discussed on Tuesday, and start working on a new dataset. The questions at the end of the document are your 3rd hand-in exercise to be e-mailed to `jurajbergman@birc.au.dk` by Friday, 12:00 (noon) - Dec. 4th.
+For this week's exercise, we will recreate the PCA results of the paper we discussed on Tuesday, and start working on a new dataset. The questions at the end of the document are your 3rd hand-in exercise to be e-mailed to `jurajbergman@birc.au.dk` by Friday, 12:00 (noon) - Dec. 4th.
 
 ## Background (adapted from [link](https://github.com/stschiff/compvar-workshop-docs/tree/master/contents/02_pca))
 
