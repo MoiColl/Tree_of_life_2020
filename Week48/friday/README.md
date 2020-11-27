@@ -38,7 +38,7 @@ I suggest loading the data into `R` and familiarizing yourself with it. Use the 
 2. Subset the dataset to the English, Norwegian, Finnish and Icelandic population (using the `POP` column) and plot the result. Interpret the relationship between populations (e.g., which populations cluster together, is this expected given the geography of the populations, how do the PCs split the populations?).
 3. Subset the dataset to four populations of your choice and plot the result. Interpret the relationship between populations.
 4. Plot the third and fourth principal component. Has the relationship between populations changed?
-5. Plot some other combinations of PC5-PC10? What can you observe? 
+5. Plot some other combinations of PC5-PC10. What can you observe? 
 6. Correlate the latitude and longitude of ancient individuals with the first two principal components (hint: use the `R` function `merge` to merge the [`dataWE.txt.zip`](dataWE.txt.zip) and [`dataWE_LatLong.txt.zip`](dataWE_LatLong.txt.zip) datasets by the `IND` column). Report the correlation coefficients and their significance. Comment on the result.
 ### East Eurasian populations
 7. Plot the first two principal components of the [`dataEE.txt.zip`](dataEE.txt.zip) dataset. Use the `POP` column to color the points. Interpret the relationship between populations (e.g., which populations cluster together, is this expected given the geography of the populations, how do the PCs split the populations?).
