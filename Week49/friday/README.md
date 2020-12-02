@@ -1,6 +1,6 @@
 # Friday Week49
 ## Work plan
-This week, we will be exploring GC3 content of 92 species of soil-dwelling bacteria. We will compare our results to the ones obtained for animals. We will also learn about the effective number of codons (ENC) in bacteria.
+This week, we will be exploring GC3 content of 92 species of soil-dwelling bacteria. We will also learn about the effective number of codons (ENC) in bacteria.
 
 ## Background
 ### Codon usage across the tree of life
@@ -16,8 +16,12 @@ ENC = 2 + GC3 + {29/[GC3<sup>2</sup>+(1-GC3)<sup>2</sup>]}
 ### Soil-dwelling bacteria
 Soil biomass is occupied by about 70% microorganisms which helps in the decomposition of the soil organic matter and releasing the essential minerals on the soil surface. Each of the different types of bacteria residing in the soil have distinct morphological, physiological, biochemical, and ecological characteristics, and the variation in the structure and composition of different soil types impart a great influence on the diversity of the microbial community that the soil retain. Hence, microbes from different soil habitat must possess a variation in the genome structure and function to cope with this variability. We will be exploring a part of the genomic variablity (mainly GC3 context) of 92 species of bacteria. The data and the following phylogeny are from this study - [`link`](https://www.frontiersin.org/articles/10.3389/fmicb.2019.02896/full)
 
-<img src="bactPhylo.png" width="75%">
+<img src="soilBact.jpg" width="100%">
+
+## Data
+The [`data.txt.zip`](data.txt.zip) you will be analyzing is a table containing 92 rows correspoding to each bacterial species, and the following columns: `Organism_name`, `Genome_size`, `GC_content` (GC-content of the whole genome), `Coding_bases` (percentage of coding bases in the genome), `Gram` (indicating if the species is gram-positive or gram-negative), `GC3` (average GC3 frequency across all coding sequences of the species), `GC3SD` (standard deviation of GC3, i.e. GC3 heterogeneity), `ENC` (ENC evaluated across all coding sequences of the species).
 
 ## Strategy
+Load the [`data.txt.zip`](data.txt.zip) into `R` and anwer the questions. If you are unsure how to program functions in `R`, the [`examples.R.zip`](examples.R.zip) script contains the `Wright (1990)` function which you can use for your analysis. Additionally, this file contains examples on how to superimpose multiple plots in the same `ggplot` object.
 
 ## Questions
