@@ -22,6 +22,6 @@ Soil biomass is occupied by about 70% microorganisms which helps in the decompos
 The [`data.txt.zip`](data.txt.zip) you will be analyzing is a table containing 92 rows correspoding to each bacterial species, and the following columns: `Organism_name`, `Genome_size`, `GC_content` (GC-content of the whole genome), `Coding_bases` (percentage of coding bases in the genome), `Gram` (indicating if the species is gram-positive or gram-negative), `GC3` (average GC3 frequency across all coding sequences of the species), `GC3SD` (standard deviation of GC3, i.e. GC3 heterogeneity), `ENC` (ENC evaluated across all coding sequences of the species).
 
 ## Strategy
-Load the [`data.txt.zip`](data.txt.zip) into `R` and anwer the questions. If you are unsure how to program functions in `R`, the [`examples.R.zip`](examples.R.zip) script contains the `Wright (1990)` function which you can use for your analysis. Additionally, this file contains examples on how to superimpose multiple plots in the same `ggplot` object.
+Load the [`data.txt.zip`](data.txt.zip) into `R` and answer the questions. If you are unsure how to program functions in `R`, the [`examples.R.zip`](examples.R.zip) script contains the `Wright (1990)` function which you can use for your analysis. Additionally, this file contains examples on how to superimpose multiple plots in the same `ggplot` object.
 
 ## Questions
