@@ -21,7 +21,44 @@ Soil biomass is occupied by about 70% microorganisms which helps in the decompos
 ## Data
 The [`data.txt.zip`](data.txt.zip) you will be analyzing is a table containing 92 rows correspoding to each bacterial species, and the following columns: `Organism_name`, `Genome_size`, `GC_content` (GC-content of the whole genome), `Coding_bases` (percentage of coding bases in the genome), `Gram` (indicating if the species is gram-positive or gram-negative), `GC3` (average GC3 frequency across all coding sequences of the species), `GC3SD` (standard deviation of GC3, i.e. GC3 heterogeneity), `ENC` (ENC evaluated across all coding sequences of the species).
 
+## Quick tutorial on `R` functions
+For one of the questions you will need to program Wright's function into `R`. Here is an example of how `R` functions are structured. Two functions are demonstrated - the first one solves the equation y = x<sup>2</sup> and the second one solves y = x+z.
+
+```{r}
+# write functions
+example_function1 <- function(x){
+  return(x**2)
+}
+
+example_function2 <- function(x, z){
+  return(x + z)
+}
+
+# run functions on single value
+> example_function1(5)
+[1] 25
+
+> example_function2(4, 3)
+[1] 7
+
+# run function on vector
+> vec1 <- c(1, 2, 3, 4)
+> example_function1(vec1)
+[1]  1  4  9 16
+> vec2 <- c(5, 6, 7, 8)
+> example_function2(vec1, vec2)
+[1]  6  8 10 12
+
+```
+
 ## Strategy
 Load the [`data.txt.zip`](data.txt.zip) into `R` and answer the questions. If you are unsure how to program functions in `R`, the [`examples.R.zip`](examples.R.zip) script contains the `Wright (1990)` function which you can use for your analysis. Additionally, this file contains examples on how to superimpose multiple plots in the same `ggplot` object.
 
 ## Questions
+1. Load the soil-dwelling bacteria dataset into `R`. Report correlations between GC content, genome size and percentage of coding sequences.
+2. Program Wright's function into `R` (last line in the "Effective number of codons" section). Run the function on range of GC3 values between 0 and 1. Plot GC3 vs. ENC values and describe the observation.
+3. Plot the GC3 vs. ENC values of the soil-dwelling bacteria dataset. Super impose Wright's function over the plot. Is the curve for GC3 vs. ENC values of the soil-dwelling bacteria above or below the curve of the Wright's function? What could be the explanation for this observation?
+4. Color the points with respect to Gram status. What can you observe?
+5. Calculate the correlation between ENC and standard deviation of GC3 for the bacteria dataset. Is the result expected and why?
+
+
