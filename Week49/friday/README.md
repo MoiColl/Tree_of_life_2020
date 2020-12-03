@@ -19,7 +19,7 @@ Soil biomass is occupied by about 70% microorganisms which help in the decomposi
 <img src="soilBact.jpg" width="100%">
 
 ## Data
-The [`data.txt.zip`](data.txt.zip) you will be analyzing is a table containing 92 rows correspoding to each bacterial species, and the following columns: `Organism_name`, `Genome_size`, `GC_content` (GC-content of the whole genome), `Coding_bases` (percentage of coding bases in the genome), `Gram` (indicating if the species is gram-positive or gram-negative), `GC3` (average GC3 frequency across all coding sequences of the species), `GC3SD` (standard deviation of GC3, i.e. GC3 heterogeneity), `ENC` (ENC evaluated across all coding sequences of the species).
+The [`data.txt.zip`](data.txt.zip) file you will be analyzing is a table containing 92 rows correspoding to each bacterial species, and the following columns: `Organism_name`, `Genome_size`, `GC_content` (GC-content of the whole genome), `Coding_bases` (percentage of coding bases in the genome), `Gram` (indicating if the species is gram-positive or gram-negative), `GC3` (average GC3 frequency across all coding sequences of the species), `GC3SD` (standard deviation of GC3, i.e. GC3 heterogeneity), `ENC` (ENC evaluated across all coding sequences of the species).
 
 ## Quick tutorial on `R` functions
 For one of the questions you will need to program Wright's function into `R`. Here is an example of how `R` functions are structured. Two functions are demonstrated - the first one solves the equation y = x<sup>2</sup> and the second one solves y = x+z.
