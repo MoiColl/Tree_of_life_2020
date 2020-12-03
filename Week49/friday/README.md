@@ -54,7 +54,7 @@ example_function2 <- function(x, z){
 Load the [`data.txt.zip`](data.txt.zip) into `R` and answer the questions. If you are unsure how to program functions in `R`, the [`examples.R.zip`](examples.R.zip) script contains the `Wright (1990)` function which you can use for your analysis. Additionally, this file contains examples on how to superimpose multiple plots in the same `ggplot` object.
 
 ## Questions
-1. Load the soil-dwelling bacteria dataset into `R`. Report correlations between GC content, genome size and percentage of coding sequences.
+1. Load the soil-dwelling bacteria dataset into `R`. Report all pair-wise correlations between GC content, genome size and percentage of coding sequences.
 2. Program Wright's function into `R` (last line in the "Effective number of codons" section). Run the function on range of GC3 values between 0 and 1. Plot GC3 vs. ENC values and describe the observation.
 3. Plot the GC3 vs. ENC values of the soil-dwelling bacteria dataset. Superimpose Wright's function over the plot. Is the curve for GC3 vs. ENC values of the soil-dwelling bacteria above or below the curve of the Wright's function? What could be the explanation for this observation?
 4. Color the points with respect to Gram status. What can you observe?
