@@ -34,14 +34,13 @@ example_function2 <- function(x, z){
   return(x + z)
 }
 
-# run functions on single value
+# run functions on single values
 > example_function1(5)
 [1] 25
-
 > example_function2(4, 3)
 [1] 7
 
-# run function on vector
+# run function on vectors
 > vec1 <- c(1, 2, 3, 4)
 > example_function1(vec1)
 [1]  1  4  9 16
