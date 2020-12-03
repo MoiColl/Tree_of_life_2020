@@ -56,7 +56,7 @@ Load the [`data.txt.zip`](data.txt.zip) into `R` and answer the questions. If yo
 ## Questions
 1. Load the soil-dwelling bacteria dataset into `R`. Report correlations between GC content, genome size and percentage of coding sequences.
 2. Program Wright's function into `R` (last line in the "Effective number of codons" section). Run the function on range of GC3 values between 0 and 1. Plot GC3 vs. ENC values and describe the observation.
-3. Plot the GC3 vs. ENC values of the soil-dwelling bacteria dataset. Super impose Wright's function over the plot. Is the curve for GC3 vs. ENC values of the soil-dwelling bacteria above or below the curve of the Wright's function? What could be the explanation for this observation?
+3. Plot the GC3 vs. ENC values of the soil-dwelling bacteria dataset. Superimpose Wright's function over the plot. Is the curve for GC3 vs. ENC values of the soil-dwelling bacteria above or below the curve of the Wright's function? What could be the explanation for this observation?
 4. Color the points with respect to Gram status. What can you observe?
 5. Calculate the correlation between ENC and standard deviation of GC3 for the bacteria dataset. Is the result expected and why?
 
