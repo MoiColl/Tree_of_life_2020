@@ -60,4 +60,4 @@ Load the [`data.txt.zip`](data.txt.zip) into `R` and answer the questions. If yo
 4. Color the points with respect to Gram status. What can you observe?
 5. Calculate the correlation between ENC and standard deviation of GC3 for the bacteria dataset. Is the result expected and why?
 
-
+[`google_doc`](https://docs.google.com/document/d/1H-szv4tvP3-CIop5D9y6Dynr4MmfAcrDadrTmBmO9dc/edit?usp=sharing)
